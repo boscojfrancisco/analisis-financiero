@@ -596,6 +596,27 @@ textarea::-webkit-scrollbar-thumb:hover {
     margin-top: 0.2rem;
 }
 
+.card-source-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    margin-top: 0.5rem;
+    padding: 0.35rem 0.75rem;
+    background: linear-gradient(135deg, rgba(14, 165, 233, 0.12), rgba(168, 85, 247, 0.1));
+    border: 1px solid rgba(14, 165, 233, 0.25);
+    border-radius: 8px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--cyan);
+    letter-spacing: 0.2px;
+    width: fit-content;
+}
+
+.card-source-badge i {
+    font-size: 0.85rem;
+    color: rgba(14, 165, 233, 0.7);
+}
+
 /* Badges */
 .badge-group {
     display: flex;

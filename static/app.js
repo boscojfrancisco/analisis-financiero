@@ -318,7 +318,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="card-header-row">
                     <div class="card-title-group">
                         <h3>${escapeHTML(item.titulo)}</h3>
-                        <p class="card-organismo">${escapeHTML(item.organismo)}</p>
+                        <div class="card-source-badge">
+                            <i class="fa-solid fa-building-columns"></i>
+                            <span>${escapeHTML(item.organismo)}</span>
+                        </div>
                     </div>
                     ${showScore ? `<span class="badge badge-match">${scorePercent}% Match</span>` : ''}
                 </div>
