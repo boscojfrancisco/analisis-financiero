@@ -8,7 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
         convocatorias: [],
         evaluatedConvocatorias: [],
         webSearchConvocatorias: [],
-        activeTab: "local-db", // 'local-db' | 'web-search'
+        noticias: [],
+        activeTab: "local-db", // 'local-db' | 'web-search' | 'news-feed'
         hasEvaluated: false,
         currentProjectDesc: "",
         filters: {
@@ -23,6 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
         convocatoriasList: document.getElementById("convocatoras-list"),
         tabLocalDb: document.querySelector('[data-tab="local-db"]'),
         tabWebSearch: document.querySelector('[data-tab="web-search"]'),
+        tabNewsFeed: document.querySelector('[data-tab="news-feed"]'),
         localDbControls: document.getElementById("local-db-controls"),
         webSearchControls: document.getElementById("web-search-controls"),
         activeFiltersInfo: document.getElementById("active-filters-info"),
@@ -73,6 +75,116 @@ document.addEventListener("DOMContentLoaded", () => {
             console.error(error);
             showErrorState("No se pudo conectar con el servidor. Revisa que el backend esté ejecutándose.");
         }
+    }
+
+    /**
+     * Carga las noticias y novedades productivas desde el backend y las muestra.
+     */
+    async function loadNoticias() {
+        showLoadingState("Cargando novedades e inversiones en Corrientes...");
+        try {
+            const response = await fetch("/api/noticias");
+            if (!response.ok) throw new Error("Error cargando noticias");
+            
+            const noticias = await response.json();
+            state.noticias = noticias;
+            
+            renderNoticias(noticias);
+        } catch (error) {
+            console.error(error);
+            showErrorState("No se pudieron cargar las noticias de inversión provincial.");
+        }
+    }
+
+    /**
+     * Renderiza las tarjetas de noticias de forma interactiva.
+     */
+    function renderNoticias(list) {
+        elements.convocatoriasList.innerHTML = "";
+        
+        if (list.length === 0) {
+            elements.convocatoriasList.innerHTML = `
+                <div class="empty-state">
+                    <i class="fa-solid fa-newspaper" style="font-size: 2.5rem;"></i>
+                    <p>No hay noticias cargadas en este momento.</p>
+                </div>
+            `;
+            return;
+        }
+
+        list.forEach(item => {
+            const card = document.createElement("div");
+            card.className = "funding-card";
+            card.style.borderColor = "rgba(168, 85, 247, 0.15)";
+            
+            card.innerHTML = `
+                <div class="card-header-row">
+                    <div class="card-title-group">
+                        <span style="font-size: 0.75rem; text-transform: uppercase; font-weight: 700; color: var(--cyan); letter-spacing: 0.5px;">Novedad Productiva / Inversión</span>
+                        <h3 style="margin-top: 0.3rem; font-size: 1.15rem;">${escapeHTML(item.titulo)}</h3>
+                        <p class="card-organismo"><i class="fa-solid fa-receipt"></i> Fuente: ${escapeHTML(item.organismo_fuente)}</p>
+                    </div>
+                </div>
+                
+                <div class="badge-group">
+                    <span class="badge badge-tematica" data-theme="${item.sector}">${escapeHTML(item.sector)}</span>
+                    <span class="badge badge-ambito" style="background: rgba(16, 185, 129, 0.1); border-color: rgba(16, 185, 129, 0.2); color: var(--emerald);">Impacto Corrientes</span>
+                </div>
+                
+                <p style="font-size: 0.9rem; line-height: 1.6; color: var(--text-secondary); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">
+                    ${escapeHTML(item.resumen)}
+                </p>
+                
+                <div style="background: rgba(14, 165, 233, 0.04); border: 1px solid rgba(14, 165, 233, 0.1); border-radius: 10px; padding: 0.8rem; font-size: 0.85rem; line-height: 1.5; color: var(--text-secondary);">
+                    <strong>¿Por qué importa a Corrientes?:</strong> ${escapeHTML(item.impacto_corrientes)}
+                </div>
+                
+                <div class="card-footer">
+                    <div class="card-footer-item">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span>Publicado: ${escapeHTML(item.fecha)}</span>
+                    </div>
+                </div>
+            `;
+            
+            card.addEventListener("click", () => {
+                const modalHTML = `
+                    <div class="modal-detail-header">
+                        <span style="font-size: 0.8rem; text-transform: uppercase; font-weight: 700; color: var(--cyan); letter-spacing: 0.5px;">Novedad de Inversión y Competitividad</span>
+                        <h2 style="margin-top: 0.4rem;">${escapeHTML(item.titulo)}</h2>
+                        <p class="modal-detail-organismo"><i class="fa-solid fa-rss"></i> Fuente Oficial: ${escapeHTML(item.organismo_fuente)}</p>
+                    </div>
+                    
+                    <div class="modal-section">
+                        <h3>Detalle de la Novedad</h3>
+                        <p style="font-size: 1rem; line-height: 1.6; color: var(--text-secondary);">${escapeHTML(item.resumen)}</p>
+                    </div>
+                    
+                    <div class="modal-section" style="background: rgba(14, 165, 233, 0.05); border: 1px solid rgba(14, 165, 233, 0.2); border-radius: 12px; padding: 1.2rem; margin-top: 1.5rem; margin-bottom: 1.5rem;">
+                        <h3 style="color: var(--cyan); margin-bottom: 0.5rem;"><i class="fa-solid fa-chart-line"></i> Impacto Directo en la Provincia de Corrientes</h3>
+                        <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-primary); font-weight: 500;">
+                            ${escapeHTML(item.impacto_corrientes)}
+                        </p>
+                    </div>
+                    
+                    <div class="verticals-tags" style="margin-top: 1.5rem; margin-bottom: 1.5rem;">
+                        <div class="vertical-tag active"><i class="fa-solid fa-tree"></i> Sector: ${escapeHTML(item.sector)}</div>
+                        <div class="vertical-tag active"><i class="fa-solid fa-calendar-check"></i> Fecha: ${escapeHTML(item.fecha)}</div>
+                    </div>
+                    
+                    <div style="margin-top: 2rem; display: flex; gap: 1rem;">
+                        <a href="${escapeHTML(item.link_oficial)}" target="_blank" class="btn btn-primary" style="text-decoration: none; flex: 1;">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            Ver Comunicado / Noticia Completa
+                        </a>
+                    </div>
+                `;
+                elements.modalDetailBody.innerHTML = modalHTML;
+                elements.detailModal.classList.remove("hidden");
+            });
+            
+            elements.convocatoriasList.appendChild(card);
+        });
     }
 
     /**
@@ -391,7 +503,10 @@ document.addEventListener("DOMContentLoaded", () => {
             modernizacion: ["modernizacion", "estado", "público", "gobierno", "trámite", "municip", "catastro"],
             datos: ["datos", "data", "ciencia", "analitica", "analytics", "predictiv", "big data"],
             ia: ["ia", "ai", "artificial", "inteligencia", "machine learning", "aprendizaje", "algoritmo"],
-            carbono: ["carbono", "huella", "co2", "emision", "verde", "sostenible", "ambiental", "eficiencia"]
+            carbono: ["carbono", "huella", "co2", "emision", "verde", "sostenible", "ambiental", "eficiencia"],
+            forestoindustria: ["forestoindustria", "forestal", "madera", "aserradero", "celulosa", "pino", "eucalipto", "maderero"],
+            sectorprimario: ["agrícola", "ganadero", "ganadería", "agricultura", "riego", "cosecha", "campo", "agro", "productor", "arroz", "citrus"],
+            infraestructuravial: ["ruta", "vial", "camino", "transporte", "logística", "pavimento", "concesión", "asfalto", "puente"]
         };
 
         elements.verticalTags.forEach(tag => {
@@ -421,7 +536,10 @@ document.addEventListener("DOMContentLoaded", () => {
             "Modernizacion del Estado": ["estado", "público", "digitalización", "modernización", "trámite"],
             "Ciencia de Datos": ["datos", "data", "analítica", "predictivo", "estadística"],
             "Inteligencia Artificial": ["ia", "ai", "artificial", "machine learning", "algoritmo"],
-            "Huella de Carbono": ["carbono", "huella", "emisión", "ambiental", "verde", "clima"]
+            "Huella de Carbono": ["carbono", "huella", "emisión", "ambiental", "verde", "clima"],
+            "Forestoindustria": ["forestoindustria", "forestal", "madera", "aserradero", "celulosa", "pino", "maderero", "biomasa"],
+            "Sector Primario": ["agrícola", "ganadero", "ganadería", "agricultura", "riego", "campo", "agro", "productor", "arroz"],
+            "Infraestructura Vial": ["ruta", "vial", "camino", "transporte", "logística", "pavimento", "concesión", "asfalto"]
         };
 
         const targetKeywords = keywords[item.tematica] || [];
@@ -456,6 +574,7 @@ document.addEventListener("DOMContentLoaded", () => {
     elements.tabLocalDb.addEventListener("click", () => {
         elements.tabLocalDb.classList.add("active");
         elements.tabWebSearch.classList.remove("active");
+        elements.tabNewsFeed.classList.remove("active");
         elements.localDbControls.classList.remove("hidden");
         elements.webSearchControls.classList.add("hidden");
         state.activeTab = "local-db";
@@ -467,6 +586,7 @@ document.addEventListener("DOMContentLoaded", () => {
     elements.tabWebSearch.addEventListener("click", () => {
         elements.tabWebSearch.classList.add("active");
         elements.tabLocalDb.classList.remove("active");
+        elements.tabNewsFeed.classList.remove("active");
         elements.webSearchControls.classList.remove("hidden");
         elements.localDbControls.classList.add("hidden");
         state.activeTab = "web-search";
@@ -482,6 +602,17 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
             `;
         }
+    });
+
+    elements.tabNewsFeed.addEventListener("click", () => {
+        elements.tabNewsFeed.classList.add("active");
+        elements.tabLocalDb.classList.remove("active");
+        elements.tabWebSearch.classList.remove("active");
+        elements.localDbControls.classList.add("hidden");
+        elements.webSearchControls.classList.add("hidden");
+        state.activeTab = "news-feed";
+        
+        loadNoticias();
     });
 
     // Filtros Locales (Búsqueda por texto y selectors)

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "noticia-1",
+    "titulo": "Histórica Inversión de ARPULP de US$ 2.000 Millones en Ituzaingó",
+    "fecha": "2026-06-15",
+    "organismo_fuente": "Ministerio de Industria de Corrientes",
+    "sector": "Forestoindustria",
+    "resumen": "La empresa ARPULP S.A. confirmó el inicio de obras para una mega planta de celulosa fluff en el Parque Industrial de Ituzaingó. Generará más de 1.200 empleos directos e impulsará toda la cadena maderera de la provincia.",
+    "impacto_corrientes": "Abre oportunidades críticas para PyMEs forestales locales que proveerán rollizos de pino y eucalipto, y demandarán modernización logística de transporte.",
+    "link_oficial": "https://itc.corrientes.gob.ar/"
+  },
+  {
+    "id": "noticia-2",
+    "titulo": "Corrientes financia la pavimentación de la RP 126 con fondos provinciales",
+    "fecha": "2026-05-20",
+    "organismo_fuente": "Dirección de Vialidad Provincial",
+    "sector": "Infraestructura Vial",
+    "resumen": "Ante la quita de fondos nacionales, la Provincia asumió el financiamiento de la pavimentación de la Ruta Provincial 126, en el tramo clave entre Sauce y Curuzú Cuatiá, mejorando la conectividad del sur correntino.",
+    "impacto_corrientes": "Reduce significativamente los costos de flete y transporte logístico para los productores de ganado, arroz y madera de la cuenca sur.",
+    "link_oficial": "https://www.corrientes.gob.ar/"
+  },
+  {
+    "id": "noticia-3",
+    "titulo": "BICE impulsa línea de Leasing para camiones y cosechadoras forestales",
+    "fecha": "2026-04-10",
+    "organismo_fuente": "BICE (Banco de Inversión y Comercio Exterior)",
+    "sector": "Sector Primario",
+    "resumen": "El BICE lanzó herramientas de leasing con amortización acelerada para adquirir maquinaria vial, tractores y camiones pesados para la carga forestal y agrícola, financiando hasta el 100% del bien.",
+    "impacto_corrientes": "Facilita la modernización tecnológica de PyMEs madereras correntinas que necesiten camiones de alta capacidad para ingresar a las plantas industriales de Virasoro e Ituzaingó.",
+    "link_oficial": "https://www.bice.com.ar/pymes/leasing/"
+  },
+  {
+    "id": "noticia-4",
+    "titulo": "El CFI y CONFIAR presentan la 'Hoja de Ruta' de Competitividad Forestal",
+    "fecha": "2026-03-05",
+    "organismo_fuente": "Consejo Federal de Inversiones",
+    "sector": "Forestoindustria",
+    "resumen": "Se aprobó el plan estratégico para la digitalización y sustentabilidad de los aserraderos correntinos. El programa incluye asistencia técnica para certificar huella de carbono y acceder a mercados internacionales.",
+    "impacto_corrientes": "Subsidios de consultoría del CFI para aserraderos de Corrientes que busquen exportar madera certificada.",
+    "link_oficial": "https://cfi.org.ar/"
+  },
+  {
+    "id": "noticia-5",
+    "titulo": "Línea de Crédito del BanCo para Emergencia Agropecuaria y Riego Tecnificado",
+    "fecha": "2026-02-18",
+    "organismo_fuente": "Banco de Corrientes S.A.",
+    "sector": "Sector Primario",
+    "resumen": "Convenio entre el Gobierno de Corrientes y el Banco provincial para otorgar préstamos con tasa bonificada destinados a la compra de bombas de agua solares, pozos profundos y tecnología de riego por goteo.",
+    "impacto_corrientes": "Esencial para productores de arroz y horticultura que deseen tecnificar su producción frente a contingencias climáticas.",
+    "link_oficial": "https://www.bancodecorrientes.com.ar/"
+  }
+]

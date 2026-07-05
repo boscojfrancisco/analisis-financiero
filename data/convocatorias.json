@@ -133,7 +133,7 @@
     "destinatarios": ["Asociaciones Empresariales", "Cámaras Sectoriales", "PyMEs"],
     "monto_maximo": "Hasta €300.000 EUR (Co-financiamiento)",
     "fecha_cierre": "Convocatorias anuales 2026",
-    "descripcion": "Programa de la Unión Europea para fomentar la economía circular y la transición ecológica en América Latina, proveyendo fondos a proyectos que asistan a redes de PyMEs in la medición y reducción de huella de carbono.",
+    "descripcion": "Programa de la Unión Europea para fomentar la economía circular y la transición ecológica en América Latina, proveyendo fondos a proyectos que asistan a redes de PyMEs en la medición y reducción de huella de carbono.",
     "requisitos": [
       "Presentar propuesta en consorcio liderado por cámaras empresariales o instituciones promotoras.",
       "Estar enfocado en la descarbonización de cadenas de valor regionales."
@@ -160,7 +160,7 @@
     "titulo": "Financiamiento para Ciudades Inteligentes y Digitalización",
     "organismo": "Banco de Desarrollo de América Latina (CAF)",
     "ambito": "Internacional",
-    "tematica": "Modernizacion del State",
+    "tematica": "Modernizacion del Estado",
     "destinatarios": ["Gobierno Provincial", "Municipios"],
     "monto_maximo": "Hasta $1.500.000 USD",
     "fecha_cierre": "Ventanilla abierta permanente",
@@ -214,6 +214,88 @@
       {
         "nombre": "Programa de Financiamiento para Equipos Solares (Provincial)",
         "url": "https://www.corrientes.gob.ar/1828/la-provincia-impulsa-linea-de-financiamiento-para-la-compra-e-instalacion-de-equipos-solares"
+      }
+    ]
+  },
+  {
+    "id": "banco-corrientes-forestoindustrial",
+    "titulo": "Crédito de Fomento Forestoindustrial y Productivo",
+    "organismo": "Banco de Corrientes S.A.",
+    "ambito": "Provincial",
+    "tematica": "Forestoindustria",
+    "destinatarios": ["Empresas", "PyMEs", "Productores Agropecuarios"],
+    "monto_maximo": "Hasta $150.000.000 ARS",
+    "fecha_cierre": "Vigente 2026 (Ventanilla abierta)",
+    "descripcion": "Línea de crédito del BanCo de Corrientes para financiar la compra de maquinaria pesada, tecnificación de aserraderos, infraestructura silvícola y capital de trabajo del sector forestal y primario.",
+    "requisitos": [
+      "Radicación productiva y fiscal en la Provincia de Corrientes.",
+      "Calificación crediticia de riesgo corporativo aprobada por el banco.",
+      "Alineación con el plan provincial de desarrollo forestal."
+    ],
+    "como_aplicar": "1. Presentarse en cualquier sucursal comercial del Banco de Corrientes S.A.\n2. Solicitar el formulario de financiamiento productivo forestal / agroindustrial.\n3. Adjuntar balances de la empresa y presupuesto de la maquinaria o mejoras productivas a financiar.",
+    "link_oficial": "https://www.bancodecorrientes.com.ar/empresas/financiacion",
+    "fuentes_adicionales": [
+      {
+        "nombre": "Banco de Corrientes - Líneas Corporativas",
+        "url": "https://www.bancodecorrientes.com.ar/empresas/financiacion"
+      },
+      {
+        "nombre": "Ministerio de Industria de Corrientes - Sector Forestal",
+        "url": "https://itc.corrientes.gob.ar/"
+      }
+    ]
+  },
+  {
+    "id": "bice-leasing-produccion",
+    "titulo": "Leasing de Maquinaria y Logística Agroindustrial BICE",
+    "organismo": "Banco de Inversión y Comercio Exterior (BICE)",
+    "ambito": "Nacional",
+    "tematica": "Sector Primario",
+    "destinatarios": ["Empresas", "PyMEs"],
+    "monto_maximo": "Financiación hasta el 100% de la maquinaria",
+    "fecha_cierre": "Ventanilla permanente 2026",
+    "descripcion": "Crédito en formato Leasing del BICE para la compra de camiones, semirremolques, tractores y maquinaria de cosecha maderera y agrícola, ofreciendo importantes beneficios de diferimiento fiscal de IVA y ganancias.",
+    "requisitos": [
+      "Ser persona jurídica calificada como MiPyME ante el Ministerio de Economía de la Nación.",
+      "Destinar los bienes para la producción primaria o logística industrial."
+    ],
+    "como_aplicar": "1. Completar la solicitud de precalificación crediticia digital en el portal de leasing de BICE.\n2. Presentar el presupuesto del fabricante o importador de la maquinaria a adquirir.\n3. Tras la aprobación, formalizar el contrato de leasing que estipula el pago en cuotas deducibles de impuestos.",
+    "link_oficial": "https://www.bice.com.ar/pymes/leasing/",
+    "fuentes_adicionales": [
+      {
+        "nombre": "BICE - Líneas de Leasing PyME",
+        "url": "https://www.bice.com.ar/pymes/leasing/"
+      },
+      {
+        "nombre": "BICE Argentina - Financiamiento de Inversiones",
+        "url": "https://www.bice.com.ar/"
+      }
+    ]
+  },
+  {
+    "id": "corrientes-infraestructura-vial",
+    "titulo": "Programa de Financiamiento para Infraestructura Vial Productiva",
+    "organismo": "Gobierno de la Provincia de Corrientes",
+    "ambito": "Provincial",
+    "tematica": "Infraestructura Vial",
+    "destinatarios": ["Municipios", "Consorcios Camineros"],
+    "monto_maximo": "Cofinanciación provincial variable",
+    "fecha_cierre": "Vigente 2026 (Decreto 253/2026)",
+    "descripcion": "Línea de cofinanciación y asistencia con fondos provinciales para consorcios camineros y municipios, orientada a la pavimentación y mejora de rutas estratégicas de transporte maderero y agropecuario.",
+    "requisitos": [
+      "Proyecto presentado en el marco del programa de Consorcios Camineros de Corrientes.",
+      "Factibilidad de impacto en caminos productivos ganaderos/forestales de la provincia."
+    ],
+    "como_aplicar": "1. Elaborar el proyecto técnico vial y presentarlo ante la Dirección de Vialidad Provincial (DVP) de Corrientes.\n2. Inscribir la solicitud en el marco de la mesa de coordinación de Consorcios Camineros de la Provincia.\n3. Una vez aprobada la factibilidad vial y el beneficio para las cuencas productivas, se estructura la asignación de materiales y fondos del Tesoro Provincial.",
+    "link_oficial": "https://www.corrientes.gob.ar/",
+    "fuentes_adicionales": [
+      {
+        "nombre": "Vialidad Provincial de Corrientes",
+        "url": "https://www.corrientes.gob.ar/"
+      },
+      {
+        "nombre": "Ministerio de Obras y Servicios Públicos de Corrientes",
+        "url": "https://mosp.corrientes.gob.ar/"
       }
     ]
   }

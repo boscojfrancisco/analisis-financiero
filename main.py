@@ -85,6 +85,25 @@ def search_web(query: str = Query(..., description="Términos de búsqueda para 
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error en la búsqueda web: {str(e)}")
 
+# Ruta del archivo de noticias
+NOTICIAS_FILE = os.path.join(os.path.dirname(__file__), "data", "noticias.json")
+
+def load_noticias() -> List[dict]:
+    """Carga las noticias y novedades locales."""
+    if not os.path.exists(NOTICIAS_FILE):
+        return []
+    try:
+        with open(NOTICIAS_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"Error cargando noticias.json: {e}")
+        return []
+
+@app.get("/api/noticias")
+def get_noticias():
+    """Devuelve las noticias y novedades de inversión."""
+    return load_noticias()
+
 # Montar los archivos estáticos para la interfaz de usuario
 # Nota: La carpeta 'static' debe existir
 static_dir = os.path.join(os.path.dirname(__file__), "static")

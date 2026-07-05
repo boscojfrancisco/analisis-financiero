@@ -638,6 +638,24 @@ textarea::-webkit-scrollbar-thumb:hover {
     border: 1px solid rgba(99, 102, 241, 0.25);
 }
 
+.badge-tematica[data-theme="Forestoindustria"] {
+    background: rgba(245, 158, 11, 0.12);
+    color: var(--amber);
+    border: 1px solid rgba(245, 158, 11, 0.25);
+}
+
+.badge-tematica[data-theme="Sector Primario"] {
+    background: rgba(16, 185, 129, 0.12);
+    color: var(--emerald);
+    border: 1px solid rgba(16, 185, 129, 0.25);
+}
+
+.badge-tematica[data-theme="Infraestructura Vial"] {
+    background: rgba(244, 63, 94, 0.12);
+    color: var(--rose);
+    border: 1px solid rgba(244, 63, 94, 0.25);
+}
+
 .badge-ambito {
     background: rgba(255, 255, 255, 0.05);
     color: var(--text-secondary);
