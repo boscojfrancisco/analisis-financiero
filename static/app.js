@@ -40,13 +40,6 @@ document.addEventListener("DOMContentLoaded", () => {
         webSearchForm: document.getElementById("web-search-form"),
         webSearchInput: document.getElementById("web-search-input"),
         
-        // AI Matcher Controls
-        matcherForm: document.getElementById("matcher-form"),
-        projectDescTextarea: document.getElementById("project-desc"),
-        btnEvaluate: document.getElementById("btn-evaluate"),
-        evaluationStatus: document.getElementById("evaluation-status"),
-        verticalTags: document.querySelectorAll(".vertical-tag"),
-        
         // Modal
         detailModal: document.getElementById("detail-modal"),
         modalDetailBody: document.getElementById("modal-detail-body"),
@@ -273,17 +266,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (retryBtn) retryBtn.addEventListener("click", loadLocalConvocatorias);
     }
 
-    function showEvaluationLoading(isLoading) {
-        if (isLoading) {
-            elements.evaluationStatus.classList.remove("hidden");
-            elements.btnEvaluate.setAttribute("disabled", "disabled");
-            elements.btnEvaluate.querySelector("span").textContent = "Procesando...";
-        } else {
-            elements.evaluationStatus.classList.add("hidden");
-            elements.btnEvaluate.removeAttribute("disabled");
-            elements.btnEvaluate.querySelector("span").textContent = "Evaluar Compatibilidad";
-        }
-    }
+
 
     /**
      * Renderiza las tarjetas de convocatorias.
@@ -521,32 +504,7 @@ document.addEventListener("DOMContentLoaded", () => {
             .replace(/'/g, "&#039;");
     }
 
-    /**
-     * Detección de tags temáticos activa para el formulario según palabras clave.
-     */
-    function updateDetectedTags(description) {
-        const text = description.lowerCase ? description.toLowerCase() : description;
-        
-        const keywords = {
-            modernizacion: ["modernizacion", "estado", "público", "gobierno", "trámite", "municip", "catastro"],
-            datos: ["datos", "data", "ciencia", "analitica", "analytics", "predictiv", "big data"],
-            ia: ["ia", "ai", "artificial", "inteligencia", "machine learning", "aprendizaje", "algoritmo"],
-            carbono: ["carbono", "huella", "co2", "emision", "verde", "sostenible", "ambiental", "eficiencia"],
-            forestoindustria: ["forestoindustria", "forestal", "madera", "aserradero", "celulosa", "pino", "eucalipto", "maderero"],
-            sectorprimario: ["agrícola", "ganadero", "ganadería", "agricultura", "riego", "cosecha", "campo", "agro", "productor", "arroz", "citrus"],
-            infraestructuravial: ["ruta", "vial", "camino", "transporte", "logística", "pavimento", "concesión", "asfalto", "puente"]
-        };
 
-        elements.verticalTags.forEach(tag => {
-            const vertical = tag.getAttribute("data-vertical");
-            const matches = keywords[vertical].some(kw => text.includes(kw));
-            if (matches) {
-                tag.classList.add("active");
-            } else {
-                tag.classList.remove("active");
-            }
-        });
-    }
 
     /**
      * Evaluación de matching simple offline de un único item para resultados web.
@@ -682,16 +640,7 @@ document.addEventListener("DOMContentLoaded", () => {
         renderConvocatorias(state.hasEvaluated ? state.evaluatedConvocatorias : state.convocatorias);
     });
 
-    // Formulario de Evaluación IA
-    elements.matcherForm.addEventListener("submit", (e) => {
-        e.preventDefault();
-        const desc = elements.projectDescTextarea.value.trim();
-        if (desc.length < 30) {
-            alert("Por favor, ingresa una descripción más detallada del proyecto (mínimo 30 caracteres) para obtener un análisis de calidad.");
-            return;
-        }
-        evaluateProject(desc);
-    });
+
 
     // Formulario de Búsqueda Web
     elements.webSearchForm.addEventListener("submit", (e) => {

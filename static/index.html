@@ -12,7 +12,7 @@
     <!-- FontAwesome para íconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/static/styles.css?v=20260705">
+    <link rel="stylesheet" href="/static/styles.css?v=20260705b">
 </head>
 <body>
     <!-- Background Decor (Glows) -->
@@ -46,51 +46,6 @@
 
         <!-- Main Dashboard Grid -->
         <main class="dashboard-grid">
-            
-            <!-- Left Panel: AI Project Matcher -->
-            <section class="panel matcher-panel">
-                <div class="panel-header">
-                    <div class="panel-icon"><i class="fa-solid fa-brain-circuit"></i></div>
-                    <div>
-                        <h2>Evaluador de Proyectos con IA</h2>
-                        <p class="panel-subtitle">Ingresa la descripción de tu proyecto para analizar la compatibilidad con las líneas de financiamiento.</p>
-                    </div>
-                </div>
-                
-                <div class="panel-body">
-                    <form id="matcher-form">
-                        <div class="input-group">
-                            <label for="project-desc">Descripción del Proyecto o Idea</label>
-                            <textarea 
-                                id="project-desc" 
-                                placeholder="Ej: Somos una cooperativa arrocera en Corrientes y queremos digitalizar el inventario usando ciencia de datos y además instalar paneles solares para reducir nuestra huella de carbono..."
-                                required
-                            ></textarea>
-                            <span class="char-count">Mínimo 30 caracteres</span>
-                        </div>
-                        
-                        <div class="verticals-tags">
-                            <span class="vertical-tag" data-vertical="modernizacion"><i class="fa-solid fa-building-user"></i> Modernización</span>
-                            <span class="vertical-tag" data-vertical="datos"><i class="fa-solid fa-circle-nodes"></i> Ciencia de Datos</span>
-                            <span class="vertical-tag" data-vertical="ia"><i class="fa-solid fa-microchip"></i> Inteligencia Artificial</span>
-                            <span class="vertical-tag" data-vertical="carbono"><i class="fa-solid fa-leaf"></i> Huella de Carbono</span>
-                            <span class="vertical-tag" data-vertical="forestoindustria"><i class="fa-solid fa-tree"></i> Forestoindustria</span>
-                            <span class="vertical-tag" data-vertical="sectorprimario"><i class="fa-solid fa-cow"></i> Sector Primario</span>
-                            <span class="vertical-tag" data-vertical="infraestructuravial"><i class="fa-solid fa-road"></i> Infraestructura Vial</span>
-                        </div>
-
-                        <button type="submit" id="btn-evaluate" class="btn btn-primary">
-                            <i class="fa-solid fa-wand-magic-sparkles"></i>
-                            <span>Evaluar Compatibilidad</span>
-                        </button>
-                    </form>
-
-                    <div id="evaluation-status" class="evaluation-status hidden">
-                        <div class="spinner"></div>
-                        <p>Analizando elegibilidad y afinidad con Inteligencia Artificial...</p>
-                    </div>
-                </div>
-            </section>
 
             <!-- Right Panel: Results & Search -->
             <section class="panel results-panel">
@@ -182,6 +137,6 @@
     </div>
 
     <!-- Custom JS -->
-    <script src="/static/app.js?v=20260705"></script>
+    <script src="/static/app.js?v=20260705b"></script>
 </body>
 </html>
