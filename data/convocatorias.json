@@ -15,19 +15,25 @@
       "Presentar plan de reducción de emisiones o eficiencia energética."
     ],
     "como_aplicar": "1. Contactar a la Unidad de Enlace Provincial (UEP) del CFI en Corrientes (ubicada en el Ministerio de Industria de la Provincia).\n2. Solicitar y completar la solicitud de Asistencia Técnica inicial para formular tu proyecto ambiental.\n3. Una vez aprobada técnicamente la factibilidad, presentar la carpeta crediticia ante el Banco de Corrientes S.A. para el desembolso.",
-    "link_oficial": "https://cfi.org.ar/financiamiento",
-    "fuentes_adicionales": [
+    "link_oficial": "https://cfi.org.ar/asistencia_financiera",
+    "fuentes": [
       {
-        "nombre": "Portal de Financiamiento del CFI",
+        "tipo": "Directa",
+        "categoria": "Bases y Condiciones",
+        "nombre": "CFI - Líneas de Asistencia Financiera y Cuidado Ambiental",
+        "url": "https://cfi.org.ar/asistencia_financiera"
+      },
+      {
+        "tipo": "Directa",
+        "categoria": "Formulación de Proyectos",
+        "nombre": "CFI - Requisitos de Financiamiento Verde",
         "url": "https://cfi.org.ar/financiamiento"
       },
       {
-        "nombre": "Unidades de Enlace Provincial (UEP)",
-        "url": "https://cfi.org.ar/uep"
-      },
-      {
-        "nombre": "Líneas de Cuidado Ambiental y Eficiencia Energética",
-        "url": "https://cfi.org.ar/asistencia_financiera"
+        "tipo": "General",
+        "categoria": "Portal Institucional",
+        "nombre": "Consejo Federal de Inversiones (CFI) - Inicio",
+        "url": "https://cfi.org.ar/"
       }
     ]
   },
@@ -46,19 +52,25 @@
       "Proyecto de inversión orientado a la mejora productiva, digitalización o inserción en cadena de valor."
     ],
     "como_aplicar": "1. Solicitar una cita comercial en el Banco de Corrientes S.A. (o bancos comerciales de tu preferencia como Macro o Santander).\n2. Pedir la línea corporativa respaldada por garantías multilaterales de fomento productivo (BID Invest/SGR).\n3. Presentar los balances y el plan de inversión tecnológica al oficial de cuentas para la calificación del crédito.",
-    "link_oficial": "https://www.idbinvest.org/es/proyectos",
-    "fuentes_adicionales": [
+    "link_oficial": "https://www.idbinvest.org/es/proyectos?country=Argentina",
+    "fuentes": [
       {
-        "nombre": "BID Invest - Proyectos Activos y Financiamiento",
-        "url": "https://www.idbinvest.org/es/proyectos"
+        "tipo": "Directa",
+        "categoria": "Licitaciones y Proyectos",
+        "nombre": "BID Invest - Proyectos Activos y Líneas en Argentina",
+        "url": "https://www.idbinvest.org/es/proyectos?country=Argentina"
       },
       {
-        "nombre": "Estrategia de País BID Argentina 2025-2028",
-        "url": "https://www.iadb.org/es/paises/argentina"
+        "tipo": "Directa",
+        "categoria": "Prensa Oficial",
+        "nombre": "Noticia Oficial - Estrategia del Grupo BID en Argentina 2025-2028",
+        "url": "https://www.iadb.org/es/noticias/grupo-bid-aprueba-nueva-estrategia-con-argentina-2025-2028"
       },
       {
-        "nombre": "Acceso a Financiamiento para Pymes - BID Invest",
-        "url": "https://www.idbinvest.org/es/sectores/instituciones-financieras"
+        "tipo": "General",
+        "categoria": "Portal Institucional",
+        "nombre": "BID Invest - Sitio Web Corporativo",
+        "url": "https://www.idbinvest.org/es"
       }
     ]
   },
@@ -77,19 +89,25 @@
       "Proyectos con alto impacto científico-tecnológico y escalabilidad."
     ],
     "como_aplicar": "1. Registrarse en el Portal de Licitaciones de la Comisión Europea (Funding & Tenders) y obtener el PIC (Código de Identificación de Participante).\n2. Buscar consorcios europeos activos que requieran socios de Latinoamérica o crear tu propia propuesta.\n3. Aplicar online cargando el plan técnico del proyecto en la convocatoria vigente del portal de Tenders de la UE.",
-    "link_oficial": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home",
-    "fuentes_adicionales": [
+    "link_oficial": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search",
+    "fuentes": [
       {
-        "nombre": "Comisión Europea - Funding & Tenders Portal",
-        "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home"
+        "tipo": "Directa",
+        "categoria": "Buscador de Convocatorias",
+        "nombre": "Comisión Europea - Buscador Específico de Tenders y Oportunidades",
+        "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search"
       },
       {
-        "nombre": "Horizonte Europa en Argentina (Oficina de Enlace)",
+        "tipo": "Directa",
+        "categoria": "Cooperación Bilateral",
+        "nombre": "Horizonte Europa en Argentina - Oficina de Enlace del MINCyT",
         "url": "https://www.argentina.gob.ar/ciencia/cooperacion-internacional/union-europea"
       },
       {
-        "nombre": "Guía de Participación para Terceros Países (Horizon Europe)",
-        "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/information-for-non-eu-countries_en.pdf"
+        "nombre": "Comisión Europea - Funding & Tenders Portal Inicio",
+        "tipo": "General",
+        "categoria": "Portal Institucional",
+        "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home"
       }
     ]
   },
@@ -108,26 +126,32 @@
       "Contratar un proveedor tecnológico habilitado dentro de la red oficial de Economía del Conocimiento."
     ],
     "como_aplicar": "1. Estar registrado como PyME activa en el portal de PyMEs de la Nación de Argentina.\n2. Ingresar a Trámites a Distancia (TAD), seleccionar el trámite de ANR FONTAR / KIT 4.0.\n3. Vincular el presupuesto formal del proveedor tecnológico homologado de tu elección y enviar el formulario de postulación digital.",
-    "link_oficial": "https://www.argentina.gob.ar/ciencia/agencia",
-    "fuentes_adicionales": [
+    "link_oficial": "https://www.argentina.gob.ar/servicio/solicitar-aportes-no-reembolsables-anr",
+    "fuentes": [
       {
-        "nombre": "Agencia de I+D+i - Convocatorias Abiertas FONTAR",
-        "url": "https://www.argentina.gob.ar/ciencia/agencia/fondo-tecnologico-argentino-fontar"
-      },
-      {
-        "nombre": "Portal de Trámites a Distancia (TAD) - ANR",
+        "tipo": "Directa",
+        "categoria": "Formulario de Trámite",
+        "nombre": "Trámites a Distancia (TAD) - Solicitud de ANR FONTAR",
         "url": "https://www.argentina.gob.ar/servicio/solicitar-aportes-no-reembolsables-anr"
       },
       {
-        "nombre": "Secretaría de la Pequeña y Mediana Empresa y los Emprendedores",
-        "url": "https://www.argentina.gob.ar/economia/pymesyemprendedores"
+        "tipo": "Directa",
+        "categoria": "Bases del Programa",
+        "nombre": "Agencia I+D+i - Línea FONTAR para PyMEs",
+        "url": "https://www.argentina.gob.ar/ciencia/agencia/fondo-tecnologico-argentino-fontar"
+      },
+      {
+        "tipo": "General",
+        "categoria": "Portal Institucional",
+        "nombre": "Agencia Nacional de Promoción Científica y Tecnológica",
+        "url": "https://www.argentina.gob.ar/ciencia/agencia"
       }
     ]
   },
   {
     "id": "ue-huella-carbono-al-invest",
     "titulo": "AL-INVEST Verde - Apoyo a la Descarbonización",
-    "organismo": "Unión Europea",
+    "organismo": "Union Europea",
     "ambito": "Internacional",
     "tematica": "Huella de Carbono",
     "destinatarios": ["Asociaciones Empresariales", "Cámaras Sectoriales", "PyMEs"],
@@ -139,19 +163,25 @@
       "Estar enfocado en la descarbonización de cadenas de valor regionales."
     ],
     "como_aplicar": "1. Estar asociado a una cámara o asociación empresarial promotora elegible (como cámaras de comercio de Corrientes).\n2. Presentar la propuesta de proyecto de asistencia ambiental conjunta ante la ventanilla abierta en el sitio web de AL-INVEST Verde.\n3. Enviar los formularios de postulación del consorcio a través del portal de Tenders del programa.",
-    "link_oficial": "https://www.alinvest-verde.eu/",
-    "fuentes_adicionales": [
+    "link_oficial": "https://alinvest-verde.eu/es/convocatorias-de-proyectos/tercera-convocatoria/",
+    "fuentes": [
       {
-        "nombre": "AL-INVEST Verde - Sitio Oficial",
-        "url": "https://www.alinvest-verde.eu/"
+        "tipo": "Directa",
+        "categoria": "Llamado Vigente",
+        "nombre": "AL-INVEST Verde - Bases de la Tercera Convocatoria Abierta",
+        "url": "https://alinvest-verde.eu/es/convocatorias-de-proyectos/tercera-convocatoria/"
       },
       {
-        "nombre": "Convocatorias y Licitaciones de AL-INVEST Verde",
+        "tipo": "Directa",
+        "categoria": "Líneas de Proyectos",
+        "nombre": "AL-INVEST Verde - Convocatorias de Proyectos y Guías",
         "url": "https://alinvest-verde.eu/es/convocatorias-de-proyectos/"
       },
       {
-        "nombre": "Delegación de la Unión Europea en Argentina",
-        "url": "https://www.eeas.europa.eu/delegations/argentina_es"
+        "tipo": "General",
+        "categoria": "Portal Institucional",
+        "nombre": "AL-INVEST Verde - Portal Principal",
+        "url": "https://www.alinvest-verde.eu/"
       }
     ]
   },
@@ -171,18 +201,30 @@
     ],
     "como_aplicar": "1. Presentar el perfil técnico del proyecto de modernización ante la Dirección Provincial de Financiamiento del Ministerio de Hacienda de Corrientes.\n2. Iniciar el pedido formal de priorización y Garantía Soberana (Aval) ante la Subsecretaría de Relaciones Financieras Internacionales (Ministerio de Economía de la Nación).\n3. Una vez priorizado a nivel nacional, estructurar el contrato de crédito junto a los oficiales técnicos de la oficina de CAF en Argentina (argentina@caf.com).",
     "link_oficial": "https://www.caf.com/es/actualidad/convocatorias/",
-    "fuentes_adicionales": [
+    "fuentes": [
       {
-        "nombre": "Portal de Convocatorias y Licitaciones CAF",
+        "tipo": "Directa",
+        "categoria": "Licitaciones Activas",
+        "nombre": "CAF - Licitaciones y Convocatorias de Consultoría e Infraestructura",
         "url": "https://www.caf.com/es/actualidad/convocatorias/"
       },
       {
-        "nombre": "CAF Argentina - Proyectos y Operaciones",
+        "tipo": "Directa",
+        "categoria": "Agenda Digital",
+        "nombre": "CAF - Iniciativa de Transformación Digital del Estado",
+        "url": "https://www.caf.com/es/temas/d/digitalizacion/"
+      },
+      {
+        "tipo": "Directa",
+        "categoria": "Proyectos País",
+        "nombre": "CAF Argentina - Cartera de Proyectos y Operaciones",
         "url": "https://www.caf.com/es/paises/argentina/"
       },
       {
-        "nombre": "Agenda Digital y de Innovación Pública CAF",
-        "url": "https://www.caf.com/es/temas/d/digitalizacion/"
+        "tipo": "General",
+        "categoria": "Portal Institucional",
+        "nombre": "Banco de Desarrollo de América Latina (CAF) - Inicio",
+        "url": "https://www.caf.com/es/"
       }
     ]
   },
@@ -201,19 +243,25 @@
       "Emprendimiento en marcha con componente tecnológico o de innovación productiva."
     ],
     "como_aplicar": "1. Completar la solicitud web en el portal oficial del Ministerio de Industria, Trabajo y Comercio de la Provincia de Corrientes cuando se abra el llamado.\n2. Presentar el plan de negocios técnico preliminar y participar en las jornadas obligatorias de mentoría y formulación.\n3. Enviar el plan de negocios definitivo para la evaluación del comité y posterior adjudicación de la tasa subsidiada.",
-    "link_oficial": "https://www.corrientes.gob.ar/",
-    "fuentes_adicionales": [
+    "link_oficial": "http://www.ife.gov.ar/",
+    "fuentes": [
       {
-        "nombre": "Portal Oficial de la Provincia de Corrientes",
-        "url": "https://www.corrientes.gob.ar/"
+        "tipo": "Directa",
+        "categoria": "Órgano Ejecutor",
+        "nombre": "IFE - Instituto de Fomento Empresarial de Corrientes",
+        "url": "http://www.ife.gov.ar/"
       },
       {
+        "tipo": "Directa",
+        "categoria": "Portal del Ministerio",
         "nombre": "Ministerio de Industria, Trabajo y Comercio de Corrientes",
         "url": "https://itc.corrientes.gob.ar/"
       },
       {
-        "nombre": "Programa de Financiamiento para Equipos Solares (Provincial)",
-        "url": "https://www.corrientes.gob.ar/1828/la-provincia-impulsa-linea-de-financiamiento-para-la-compra-e-instalacion-de-equipos-solares"
+        "tipo": "General",
+        "categoria": "Portal de Gobierno",
+        "nombre": "Gobierno de la Provincia de Corrientes - Inicio",
+        "url": "https://www.corrientes.gob.ar/"
       }
     ]
   },
@@ -233,15 +281,25 @@
       "Alineación con el plan provincial de desarrollo forestal."
     ],
     "como_aplicar": "1. Presentarse en cualquier sucursal comercial del Banco de Corrientes S.A.\n2. Solicitar el formulario de financiamiento productivo forestal / agroindustrial.\n3. Adjuntar balances de la empresa y presupuesto de la maquinaria o mejoras productivas a financiar.",
-    "link_oficial": "https://www.bancodecorrientes.com.ar/empresas/financiacion",
-    "fuentes_adicionales": [
+    "link_oficial": "https://www.bancodecorrientes.com.ar/empresas/financiacion/linea-inversion-productiva",
+    "fuentes": [
       {
-        "nombre": "Banco de Corrientes - Líneas Corporativas",
+        "tipo": "Directa",
+        "categoria": "Línea Específica",
+        "nombre": "Banco de Corrientes - Línea de Inversión Productiva y Maquinaria",
+        "url": "https://www.bancodecorrientes.com.ar/empresas/financiacion/linea-inversion-productiva"
+      },
+      {
+        "tipo": "Directa",
+        "categoria": "Financiación Empresas",
+        "nombre": "Banco de Corrientes - Créditos y Leasing para Empresas",
         "url": "https://www.bancodecorrientes.com.ar/empresas/financiacion"
       },
       {
-        "nombre": "Ministerio de Industria de Corrientes - Sector Forestal",
-        "url": "https://itc.corrientes.gob.ar/"
+        "tipo": "General",
+        "categoria": "Portal Bancario",
+        "nombre": "Banco de Corrientes S.A. - Sitio Principal",
+        "url": "https://www.bancodecorrientes.com.ar/"
       }
     ]
   },
@@ -261,13 +319,23 @@
     ],
     "como_aplicar": "1. Completar la solicitud de precalificación crediticia digital en el portal de leasing de BICE.\n2. Presentar el presupuesto del fabricante o importador de la maquinaria a adquirir.\n3. Tras la aprobación, formalizar el contrato de leasing que estipula el pago en cuotas deducibles de impuestos.",
     "link_oficial": "https://www.bice.com.ar/pymes/leasing/",
-    "fuentes_adicionales": [
+    "fuentes": [
       {
-        "nombre": "BICE - Líneas de Leasing PyME",
+        "tipo": "Directa",
+        "categoria": "Leasing PyME",
+        "nombre": "BICE - Líneas de Leasing para Logística y Maquinaria",
         "url": "https://www.bice.com.ar/pymes/leasing/"
       },
       {
-        "nombre": "BICE Argentina - Financiamiento de Inversiones",
+        "tipo": "Directa",
+        "categoria": "Líneas PyME",
+        "nombre": "BICE - Oferta Integral de Financiamiento Corporativo",
+        "url": "https://www.bice.com.ar/pymes/"
+      },
+      {
+        "tipo": "General",
+        "categoria": "Portal Bancario",
+        "nombre": "Banco de Inversión y Comercio Exterior (BICE) - Inicio",
         "url": "https://www.bice.com.ar/"
       }
     ]
@@ -287,15 +355,25 @@
       "Factibilidad de impacto en caminos productivos ganaderos/forestales de la provincia."
     ],
     "como_aplicar": "1. Elaborar el proyecto técnico vial y presentarlo ante la Dirección de Vialidad Provincial (DVP) de Corrientes.\n2. Inscribir la solicitud en el marco de la mesa de coordinación de Consorcios Camineros de la Provincia.\n3. Una vez aprobada la factibilidad vial y el beneficio para las cuencas productivas, se estructura la asignación de materiales y fondos del Tesoro Provincial.",
-    "link_oficial": "https://www.corrientes.gob.ar/",
-    "fuentes_adicionales": [
+    "link_oficial": "https://www.corrientes.gob.ar/13562/obra-historica-comenzaron-los-trabajos-de-pavimentacion-en-la-ruta-126",
+    "fuentes": [
       {
-        "nombre": "Vialidad Provincial de Corrientes",
-        "url": "https://www.corrientes.gob.ar/"
+        "tipo": "Directa",
+        "categoria": "Noticia e Impacto",
+        "nombre": "Comunicado Oficial - Obras de Pavimentación en la Ruta Provincial 126",
+        "url": "https://www.corrientes.gob.ar/13562/obra-historica-comenzaron-los-trabajos-de-pavimentacion-en-la-ruta-126"
       },
       {
+        "tipo": "Directa",
+        "categoria": "Obras Públicas",
         "nombre": "Ministerio de Obras y Servicios Públicos de Corrientes",
         "url": "https://mosp.corrientes.gob.ar/"
+      },
+      {
+        "tipo": "General",
+        "categoria": "Portal de Gobierno",
+        "nombre": "Gobierno de la Provincia de Corrientes - Inicio",
+        "url": "https://www.corrientes.gob.ar/"
       }
     ]
   }

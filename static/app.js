@@ -448,26 +448,54 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
             </div>
             
-            ${item.fuentes_adicionales ? `
+            ${item.fuentes ? `
             <div class="modal-section" style="margin-top: 1.5rem; border-top: 1px solid var(--panel-border); padding-top: 1.5rem;">
-                <h3>Fuentes y Enlaces de Referencia</h3>
-                <div style="display: flex; flex-direction: column; gap: 0.6rem; margin-top: 0.6rem;">
-                    ${item.fuentes_adicionales.map(f => `
-                        <div style="font-size: 0.9rem; display: flex; align-items: center; gap: 0.5rem;">
-                            <i class="fa-solid fa-square-rss" style="color: var(--cyan); font-size: 1rem;"></i>
-                            <a href="${escapeHTML(f.url)}" target="_blank" style="color: var(--text-secondary); text-decoration: none; border-bottom: 1px dashed var(--text-muted); padding-bottom: 2px;">
-                                ${escapeHTML(f.nombre)}
+                <h3>Fuentes y Enlaces Oficiales</h3>
+                
+                <!-- Fuentes Directas -->
+                ${item.fuentes.some(f => f.tipo === 'Directa') ? `
+                <h4 style="font-size: 0.9rem; color: var(--teal); margin-top: 0.8rem; margin-bottom: 0.6rem; display: flex; align-items: center; gap: 0.4rem;">
+                    <i class="fa-solid fa-circle-arrow-right"></i> Fuentes Directas (Bases, Formularios e Inscripciones)
+                </h4>
+                <div style="display: flex; flex-direction: column; gap: 0.8rem; margin-bottom: 1.2rem; padding-left: 0.2rem;">
+                    ${item.fuentes.filter(f => f.tipo === 'Directa').map(f => `
+                        <div style="font-size: 0.9rem; display: flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap;">
+                            <span style="font-size: 0.7rem; font-weight: 700; color: var(--teal); background: rgba(20, 184, 166, 0.1); padding: 0.15rem 0.4rem; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.3px;">
+                                ${escapeHTML(f.categoria)}
+                            </span>
+                            <a href="${escapeHTML(f.url)}" target="_blank" style="color: var(--text-secondary); text-decoration: none; border-bottom: 1px dashed var(--text-muted); padding-bottom: 1px; transition: var(--transition-smooth); display: inline-flex; align-items: center; gap: 0.3rem;">
+                                ${escapeHTML(f.nombre)} <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.7rem; color: var(--text-muted);"></i>
                             </a>
                         </div>
                     `).join("")}
                 </div>
+                ` : ''}
+
+                <!-- Fuentes Generales -->
+                ${item.fuentes.some(f => f.tipo === 'General') ? `
+                <h4 style="font-size: 0.9rem; color: var(--indigo); margin-top: 0.8rem; margin-bottom: 0.6rem; display: flex; align-items: center; gap: 0.4rem;">
+                    <i class="fa-solid fa-globe"></i> Fuentes Generales (Portales Institucionales)
+                </h4>
+                <div style="display: flex; flex-direction: column; gap: 0.8rem; padding-left: 0.2rem;">
+                    ${item.fuentes.filter(f => f.tipo === 'General').map(f => `
+                        <div style="font-size: 0.9rem; display: flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap;">
+                            <span style="font-size: 0.7rem; font-weight: 700; color: var(--indigo); background: rgba(99, 102, 241, 0.1); padding: 0.15rem 0.4rem; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.3px;">
+                                ${escapeHTML(f.categoria)}
+                            </span>
+                            <a href="${escapeHTML(f.url)}" target="_blank" style="color: var(--text-secondary); text-decoration: none; border-bottom: 1px dashed var(--text-muted); padding-bottom: 1px; display: inline-flex; align-items: center; gap: 0.3rem;">
+                                ${escapeHTML(f.nombre)} <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.7rem; color: var(--text-muted);"></i>
+                            </a>
+                        </div>
+                    `).join("")}
+                </div>
+                ` : ''}
             </div>
             ` : ''}
 
             <div style="margin-top: 2rem; display: flex; gap: 1rem;">
                 <a href="${escapeHTML(item.link_oficial)}" target="_blank" class="btn btn-primary" style="text-decoration: none; flex: 1;">
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    Ir a la Web Oficial de Convocatoria
+                    Ir a la Web Oficial Principal
                 </a>
             </div>
         `;
