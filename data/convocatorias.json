@@ -1,0 +1,115 @@
+[
+  {
+    "id": "cfi-credito-verde",
+    "titulo": "Línea de Financiamiento Verde CFI (Corrientes)",
+    "organismo": "Consejo Federal de Inversiones (CFI)",
+    "ambito": "Provincial / Nacional",
+    "tematica": "Huella de Carbono",
+    "destinatarios": ["Empresas", "PyMEs", "Productores Agropecuarios"],
+    "monto_maximo": "Hasta el 80% de la inversión (Límites variables)",
+    "fecha_cierre": "Vigente 2026 (Ventanilla permanente)",
+    "descripcion": "Financiamiento del CFI y el Gobierno de Corrientes para MiPyMEs orientado a la incorporación de energías renovables (solar, biomasa), eficiencia de procesos, economía circular y reducción de la huella de carbono.",
+    "requisitos": [
+      "MiPyMEs radicadas en Corrientes con carpeta técnica aprobada.",
+      "Haber recibido asistencia técnica de la Unidad de Enlace del CFI o de la provincia.",
+      "Presentar plan de reducción de emisiones o eficiencia energética."
+    ],
+    "link_oficial": "https://cfi.org.ar/financiamiento"
+  },
+  {
+    "id": "bid-invest-garantias",
+    "titulo": "Garantías y Créditos para PyMEs - BID Invest",
+    "organismo": "Banco Interamericano de Desarrollo (BID Invest)",
+    "ambito": "Internacional",
+    "tematica": "Modernizacion del Estado",
+    "destinatarios": ["Empresas", "PyMEs"],
+    "monto_maximo": "Variable según entidad bancaria intermediaria",
+    "fecha_cierre": "Vigente 2026",
+    "descripcion": "Programa del BID Invest para facilitar el acceso al crédito para capital de trabajo y modernización de PyMEs argentinas, operando mediante fondos de garantía a través de bancos locales (incluye Banco de Corrientes).",
+    "requisitos": [
+      "Ser una PyME calificada por el banco local intermediario.",
+      "Proyecto de inversión orientado a la mejora productiva, digitalización o inserción en cadena de valor."
+    ],
+    "link_oficial": "https://www.idbinvest.org"
+  },
+  {
+    "id": "ue-horizon-europe",
+    "titulo": "Horizonte Europa - Convocatorias 'Twin Transition'",
+    "organismo": "Comisión Europea (Unión Europea)",
+    "ambito": "Internacional",
+    "tematica": "Inteligencia Artificial",
+    "destinatarios": ["Empresas", "Universidades", "Centros Tecnológicos"],
+    "monto_maximo": "Hasta €2.500.000 EUR (100% co-financiado)",
+    "fecha_cierre": "Convocatorias periódicas 2026-2027",
+    "descripcion": "Financiamiento de investigación e innovación de la Unión Europea para proyectos asociativos enfocados en la transición digital y verde, impulsando la adopción de Inteligencia Artificial y Ciencia de Datos aplicadas a la sustentabilidad.",
+    "requisitos": [
+      "Participar en consorcio internacional (mínimo 3 entidades de países diferentes, incluyendo europeos).",
+      "Proyectos con alto impacto científico-tecnológico y escalabilidad."
+    ],
+    "link_oficial": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home"
+  },
+  {
+    "id": "kit-40-digitalizacion",
+    "titulo": "Programa KIT 4.0 - Digitalización de MiPyMEs",
+    "organismo": "Agencia I+D+i (Financiado por el BID)",
+    "ambito": "Nacional",
+    "tematica": "Ciencia de Datos",
+    "destinatarios": ["Empresas", "PyMEs"],
+    "monto_maximo": "$60.000.000 ARS (Subsidios / ANR)",
+    "fecha_cierre": "2026-11-30",
+    "descripcion": "Iniciativa conjunta de la Secretaría de Industria y la Agencia I+D+i que conecta a PyMEs con proveedores de tecnología para la implementación de Ciencia de Datos, Machine Learning y automatización de procesos.",
+    "requisitos": [
+      "Estar registrado como PyME en el registro oficial nacional.",
+      "Contratar un proveedor tecnológico habilitado dentro de la red oficial de Economía del Conocimiento."
+    ],
+    "link_oficial": "https://www.argentina.gob.ar/ciencia/agencia"
+  },
+  {
+    "id": "ue-huella-carbono-al-invest",
+    "titulo": "AL-INVEST Verde - Apoyo a la Descarbonización",
+    "organismo": "Unión Europea",
+    "ambito": "Internacional",
+    "tematica": "Huella de Carbono",
+    "destinatarios": ["Asociaciones Empresariales", "Cámaras Sectoriales", "PyMEs"],
+    "monto_maximo": "Hasta €300.000 EUR (Co-financiamiento)",
+    "fecha_cierre": "Convocatorias anuales 2026",
+    "descripcion": "Programa de la Unión Europea para fomentar la economía circular y la transición ecológica en América Latina, proveyendo fondos a proyectos que asistan a redes de PyMEs en la medición y reducción de huella de carbono.",
+    "requisitos": [
+      "Presentar propuesta en consorcio liderado por cámaras empresariales o instituciones promotoras.",
+      "Estar enfocado en la descarbonización de cadenas de valor regionales."
+    ],
+    "link_oficial": "https://www.alinvest-verde.eu/"
+  },
+  {
+    "id": "caf-ciudades-inteligentes",
+    "titulo": "Financiamiento para Ciudades Inteligentes y Digitalización",
+    "organismo": "Banco de Desarrollo de América Latina (CAF)",
+    "ambito": "Internacional",
+    "tematica": "Modernizacion del Estado",
+    "destinatarios": ["Gobierno Provincial", "Municipios"],
+    "monto_maximo": "Hasta $1.500.000 USD",
+    "fecha_cierre": "Ventanilla abierta permanente",
+    "descripcion": "Línea de asistencia financiera y técnica de la CAF para gobiernos provinciales y municipios de Corrientes enfocada en la modernización de servicios urbanos, conectividad, IoT y analítica de datos públicos.",
+    "requisitos": [
+      "Ser ente gubernamental con factibilidad técnica de CAF.",
+      "Contar con garantía de endeudamiento provincial/nacional según corresponda."
+    ],
+    "link_oficial": "https://www.caf.com/"
+  },
+  {
+    "id": "corrientes-emprende-tech",
+    "titulo": "Corrientes Emprende Tecnológico",
+    "organismo": "Gobierno de la Provincia de Corrientes",
+    "ambito": "Provincial",
+    "tematica": "Ciencia de Datos",
+    "destinatarios": ["Empresas", "Emprendedores"],
+    "monto_maximo": "$15.000.000 ARS (Crédito a tasa subsidiada)",
+    "fecha_cierre": "2026-08-15",
+    "descripcion": "Línea de crédito provincial bonificada para impulsar startups y emprendimientos tecnológicos radicados en Corrientes que utilicen analítica de datos, desarrollo de software y optimización tecnológica.",
+    "requisitos": [
+      "Persona física o jurídica con domicilio fiscal en Corrientes.",
+      "Emprendimiento en marcha con componente tecnológico o de innovación productiva."
+    ],
+    "link_oficial": "http://www.corrientes.gob.ar"
+  }
+]

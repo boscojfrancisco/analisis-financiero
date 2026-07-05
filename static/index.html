@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinanCorrientes | Buscador Inteligente de Financiamiento</title>
+    <meta name="description" content="Plataforma de búsqueda y evaluación de financiamiento en Argentina y el mundo para empresas y entes de la Provincia de Corrientes en Modernización, IA, Ciencia de Datos y Huella de Carbono.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <!-- Background Decor (Glows) -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <div class="app-container">
+        <!-- Header -->
+        <header class="main-header">
+            <div class="logo-area">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-chart-line-up"></i>
+                    <span class="pulse-ring"></span>
+                </div>
+                <div>
+                    <h1>Finan<span>Corrientes</span></h1>
+                    <p class="tagline">Buscador Inteligente de Financiamiento y Subsidios</p>
+                </div>
+            </div>
+            <div class="header-status">
+                <div class="status-indicator">
+                    <span class="status-dot"></span>
+                    <span class="status-text">Backend Activo</span>
+                </div>
+                <div class="provincial-tag">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Provincia de Corrientes</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Dashboard Grid -->
+        <main class="dashboard-grid">
+            
+            <!-- Left Panel: AI Project Matcher -->
+            <section class="panel matcher-panel">
+                <div class="panel-header">
+                    <div class="panel-icon"><i class="fa-solid fa-brain-circuit"></i></div>
+                    <div>
+                        <h2>Evaluador de Proyectos con IA</h2>
+                        <p class="panel-subtitle">Ingresa la descripción de tu proyecto para analizar la compatibilidad con las líneas de financiamiento.</p>
+                    </div>
+                </div>
+                
+                <div class="panel-body">
+                    <form id="matcher-form">
+                        <div class="input-group">
+                            <label for="project-desc">Descripción del Proyecto o Idea</label>
+                            <textarea 
+                                id="project-desc" 
+                                placeholder="Ej: Somos una cooperativa arrocera en Corrientes y queremos digitalizar el inventario usando ciencia de datos y además instalar paneles solares para reducir nuestra huella de carbono..."
+                                required
+                            ></textarea>
+                            <span class="char-count">Mínimo 30 caracteres</span>
+                        </div>
+                        
+                        <div class="verticals-tags">
+                            <span class="vertical-tag" data-vertical="modernizacion"><i class="fa-solid fa-building-user"></i> Modernización</span>
+                            <span class="vertical-tag" data-vertical="datos"><i class="fa-solid fa-circle-nodes"></i> Ciencia de Datos</span>
+                            <span class="vertical-tag" data-vertical="ia"><i class="fa-solid fa-microchip"></i> Inteligencia Artificial</span>
+                            <span class="vertical-tag" data-vertical="carbono"><i class="fa-solid fa-leaf"></i> Huella de Carbono</span>
+                        </div>
+
+                        <button type="submit" id="btn-evaluate" class="btn btn-primary">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                            <span>Evaluar Compatibilidad</span>
+                        </button>
+                    </form>
+
+                    <div id="evaluation-status" class="evaluation-status hidden">
+                        <div class="spinner"></div>
+                        <p>Analizando elegibilidad y afinidad con Inteligencia Artificial...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Right Panel: Results & Search -->
+            <section class="panel results-panel">
+                <!-- Navigation Tabs -->
+                <div class="tabs-navigation">
+                    <button class="tab-btn active" data-tab="local-db">
+                        <i class="fa-solid fa-folder-open"></i> Convocatorias Oficiales
+                    </button>
+                    <button class="tab-btn" data-tab="web-search">
+                        <i class="fa-solid fa-earth-americas"></i> Búsqueda en la Web (Tiempo Real)
+                    </button>
+                </div>
+
+                <!-- Database View Filters -->
+                <div id="local-db-controls" class="controls-bar">
+                    <div class="search-box">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="db-search-input" placeholder="Filtrar por título u organismo...">
+                    </div>
+                    
+                    <div class="filters-row">
+                        <div class="select-wrapper">
+                            <select id="filter-tematica">
+                                <option value="">Todas las Temáticas</option>
+                                <option value="Modernizacion del Estado">Modernización del Estado</option>
+                                <option value="Ciencia de Datos">Ciencia de Datos</option>
+                                <option value="Inteligencia Artificial">Inteligencia Artificial</option>
+                                <option value="Huella de Carbono">Huella de Carbono</option>
+                            </select>
+                        </div>
+
+                        <div class="select-wrapper">
+                            <select id="filter-ambito">
+                                <option value="">Todos los Ámbitos</option>
+                                <option value="Provincial">Provincial</option>
+                                <option value="Nacional">Nacional</option>
+                                <option value="Internacional">Internacional</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Search View Controls -->
+                <div id="web-search-controls" class="controls-bar hidden">
+                    <form id="web-search-form" class="web-search-form">
+                        <input type="text" id="web-search-input" placeholder="Buscar palabras clave en la web (ej: energías renovables pymes)..." required>
+                        <button type="submit" class="btn btn-secondary">
+                            <i class="fa-solid fa-globe"></i> Buscar
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Active Filter Indicator -->
+                <div id="active-filters-info" class="active-filters-info hidden">
+                    <span id="filters-text">Filtros activos</span>
+                    <button id="btn-clear-filters"><i class="fa-solid fa-xmark"></i> Limpiar</button>
+                </div>
+
+                <!-- Convocatorias Cards Container -->
+                <div class="panel-body cards-scroll-container">
+                    <div id="convocatoras-list" class="cards-grid">
+                        <!-- Se poblará dinámicamente -->
+                        <div class="loading-state">
+                            <div class="spinner"></div>
+                            <p>Cargando convocatorias disponibles...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Modal para Detalle de Convocatoria -->
+    <div id="detail-modal" class="modal-overlay hidden">
+        <div class="modal-content glass-panel">
+            <button class="modal-close-btn" id="btn-close-modal">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="modal-body" id="modal-detail-body">
+                <!-- Se poblará dinámicamente -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="/static/app.js"></script>
+</body>
+</html>

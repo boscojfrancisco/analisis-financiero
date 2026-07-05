@@ -1,0 +1,39 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.venv/
+var/
+bin/
+include/
+lib/
+lib64/
+
+# OS-specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environments / Credentials
+.env
+.flaskenv
+*.pem
+
+# IDEs
+.vscode/
+.idea/
+.project
+.pydevproject
+
+# System generated artifacts
+.gemini/
