@@ -38,7 +38,10 @@ def _heuristic_match(description: str, convocatoria: Dict[str, Any]) -> Dict[str
         "modernizacion del estado": ["estado", "gubernamental", "municipio", "trámite", "digitalización", "público", "catastro", "gestión"],
         "ciencia de datos": ["datos", "data", "ciencia", "analítica", "predictivo", "estadística", "visualización", "big data"],
         "inteligencia artificial": ["ia", "ai", "artificial", "machine learning", "aprendizaje", "redes neuronales", "automatización", "nlp", "llm"],
-        "huella de carbono": ["carbono", "huella", "emisiones", "sostenible", "verde", "eficiencia energética", "renovable", "ambiental", "clima"]
+        "huella de carbono": ["carbono", "huella", "emisiones", "sostenible", "verde", "eficiencia energética", "renovable", "ambiental", "clima"],
+        "forestoindustria": ["forestoindustria", "forestal", "madera", "aserradero", "celulosa", "pino", "eucalipto", "maderero", "biomasa"],
+        "sector primario": ["agrícola", "ganadero", "ganadería", "agricultura", "riego", "cosecha", "campo", "agro", "productor", "arroz", "citrus"],
+        "infraestructura vial": ["ruta", "vial", "camino", "transporte", "logística", "pavimento", "concesión", "asfalto", "puente"]
     }
     
     # Coincidencia de la temática principal de la convocatoria en el texto del proyecto
