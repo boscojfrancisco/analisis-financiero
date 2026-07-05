@@ -311,6 +311,15 @@ document.addEventListener("DOMContentLoaded", () => {
                 </ul>
             </div>
 
+            ${item.como_aplicar ? `
+            <div class="modal-section" style="background: rgba(20, 184, 166, 0.05); border: 1px solid rgba(20, 184, 166, 0.2); border-radius: 12px; padding: 1.2rem; margin-top: 1.5rem; margin-bottom: 1.5rem;">
+                <h3 style="color: var(--teal); margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.5px;"><i class="fa-solid fa-circle-info"></i> ¿Cómo Iniciar la Postulación?</h3>
+                <p style="white-space: pre-line; font-size: 0.95rem; line-height: 1.6; color: var(--text-primary); font-weight: 500;">
+                    ${escapeHTML(item.como_aplicar)}
+                </p>
+            </div>
+            ` : ''}
+
             <div class="verticals-tags" style="margin-top: 1.5rem; margin-bottom: 1.5rem;">
                 <div class="vertical-tag active"><i class="fa-solid fa-layer-group"></i> Ámbito: ${escapeHTML(item.ambito)}</div>
                 <div class="vertical-tag active"><i class="fa-solid fa-users"></i> Destinatarios: ${escapeHTML(item.destinatarios.join(", "))}</div>

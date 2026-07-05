@@ -14,6 +14,7 @@
       "Haber recibido asistencia técnica de la Unidad de Enlace del CFI o de la provincia.",
       "Presentar plan de reducción de emisiones o eficiencia energética."
     ],
+    "como_aplicar": "1. Contactar a la Unidad de Enlace Provincial (UEP) del CFI en Corrientes (ubicada en el Ministerio de Industria de la Provincia).\n2. Solicitar y completar la solicitud de Asistencia Técnica inicial para formular tu proyecto ambiental.\n3. Una vez aprobada técnicamente la factibilidad, presentar la carpeta crediticia ante el Banco de Corrientes S.A. para el desembolso.",
     "link_oficial": "https://cfi.org.ar/financiamiento",
     "fuentes_adicionales": [
       {
@@ -44,6 +45,7 @@
       "Ser una PyME calificada por el banco local intermediario.",
       "Proyecto de inversión orientado a la mejora productiva, digitalización o inserción en cadena de valor."
     ],
+    "como_aplicar": "1. Solicitar una cita comercial en el Banco de Corrientes S.A. (o bancos comerciales de tu preferencia como Macro o Santander).\n2. Pedir la línea corporativa respaldada por garantías multilaterales de fomento productivo (BID Invest/SGR).\n3. Presentar los balances y el plan de inversión tecnológica al oficial de cuentas para la calificación del crédito.",
     "link_oficial": "https://www.idbinvest.org/es/proyectos",
     "fuentes_adicionales": [
       {
@@ -74,6 +76,7 @@
       "Participar en consorcio internacional (mínimo 3 entidades de países diferentes, incluyendo europeos).",
       "Proyectos con alto impacto científico-tecnológico y escalabilidad."
     ],
+    "como_aplicar": "1. Registrarse en el Portal de Licitaciones de la Comisión Europea (Funding & Tenders) y obtener el PIC (Código de Identificación de Participante).\n2. Buscar consorcios europeos activos que requieran socios de Latinoamérica o crear tu propia propuesta.\n3. Aplicar online cargando el plan técnico del proyecto en la convocatoria vigente del portal de Tenders de la UE.",
     "link_oficial": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home",
     "fuentes_adicionales": [
       {
@@ -104,6 +107,7 @@
       "Estar registrado como PyME en el registro oficial nacional.",
       "Contratar un proveedor tecnológico habilitado dentro de la red oficial de Economía del Conocimiento."
     ],
+    "como_aplicar": "1. Estar registrado como PyME activa en el portal de PyMEs de la Nación de Argentina.\n2. Ingresar a Trámites a Distancia (TAD), seleccionar el trámite de ANR FONTAR / KIT 4.0.\n3. Vincular el presupuesto formal del proveedor tecnológico homologado de tu elección y enviar el formulario de postulación digital.",
     "link_oficial": "https://www.argentina.gob.ar/ciencia/agencia",
     "fuentes_adicionales": [
       {
@@ -129,11 +133,12 @@
     "destinatarios": ["Asociaciones Empresariales", "Cámaras Sectoriales", "PyMEs"],
     "monto_maximo": "Hasta €300.000 EUR (Co-financiamiento)",
     "fecha_cierre": "Convocatorias anuales 2026",
-    "descripcion": "Programa de la Unión Europea para fomentar la economía circular y la transición ecológica en América Latina, proveyendo fondos a proyectos que asistan a redes de PyMEs en la medición y reducción de huella de carbono.",
+    "descripcion": "Programa de la Unión Europea para fomentar la economía circular y la transición ecológica en América Latina, proveyendo fondos a proyectos que asistan a redes de PyMEs in la medición y reducción de huella de carbono.",
     "requisitos": [
       "Presentar propuesta en consorcio liderado por cámaras empresariales o instituciones promotoras.",
       "Estar enfocado en la descarbonización de cadenas de valor regionales."
     ],
+    "como_aplicar": "1. Estar asociado a una cámara o asociación empresarial promotora elegible (como cámaras de comercio de Corrientes).\n2. Presentar la propuesta de proyecto de asistencia ambiental conjunta ante la ventanilla abierta en el sitio web de AL-INVEST Verde.\n3. Enviar los formularios de postulación del consorcio a través del portal de Tenders del programa.",
     "link_oficial": "https://www.alinvest-verde.eu/",
     "fuentes_adicionales": [
       {
@@ -155,7 +160,7 @@
     "titulo": "Financiamiento para Ciudades Inteligentes y Digitalización",
     "organismo": "Banco de Desarrollo de América Latina (CAF)",
     "ambito": "Internacional",
-    "tematica": "Modernizacion del Estado",
+    "tematica": "Modernizacion del State",
     "destinatarios": ["Gobierno Provincial", "Municipios"],
     "monto_maximo": "Hasta $1.500.000 USD",
     "fecha_cierre": "Ventanilla abierta permanente",
@@ -164,6 +169,7 @@
       "Ser ente gubernamental con factibilidad técnica de CAF.",
       "Contar con garantía de endeudamiento provincial/nacional según corresponda."
     ],
+    "como_aplicar": "1. Presentar el perfil técnico del proyecto de modernización ante la Dirección Provincial de Financiamiento del Ministerio de Hacienda de Corrientes.\n2. Iniciar el pedido formal de priorización y Garantía Soberana (Aval) ante la Subsecretaría de Relaciones Financieras Internacionales (Ministerio de Economía de la Nación).\n3. Una vez priorizado a nivel nacional, estructurar el contrato de crédito junto a los oficiales técnicos de la oficina de CAF en Argentina (argentina@caf.com).",
     "link_oficial": "https://www.caf.com/es/actualidad/convocatorias/",
     "fuentes_adicionales": [
       {
@@ -194,6 +200,7 @@
       "Persona física o jurídica con domicilio fiscal en Corrientes.",
       "Emprendimiento en marcha con componente tecnológico o de innovación productiva."
     ],
+    "como_aplicar": "1. Completar la solicitud web en el portal oficial del Ministerio de Industria, Trabajo y Comercio de la Provincia de Corrientes cuando se abra el llamado.\n2. Presentar el plan de negocios técnico preliminar y participar en las jornadas obligatorias de mentoría y formulación.\n3. Enviar el plan de negocios definitivo para la evaluación del comité y posterior adjudicación de la tasa subsidiada.",
     "link_oficial": "https://www.corrientes.gob.ar/",
     "fuentes_adicionales": [
       {
