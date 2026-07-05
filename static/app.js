@@ -327,6 +327,22 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
             </div>
             
+            ${item.fuentes_adicionales ? `
+            <div class="modal-section" style="margin-top: 1.5rem; border-top: 1px solid var(--panel-border); padding-top: 1.5rem;">
+                <h3>Fuentes y Enlaces de Referencia</h3>
+                <div style="display: flex; flex-direction: column; gap: 0.6rem; margin-top: 0.6rem;">
+                    ${item.fuentes_adicionales.map(f => `
+                        <div style="font-size: 0.9rem; display: flex; align-items: center; gap: 0.5rem;">
+                            <i class="fa-solid fa-square-rss" style="color: var(--cyan); font-size: 1rem;"></i>
+                            <a href="${escapeHTML(f.url)}" target="_blank" style="color: var(--text-secondary); text-decoration: none; border-bottom: 1px dashed var(--text-muted); padding-bottom: 2px;">
+                                ${escapeHTML(f.nombre)}
+                            </a>
+                        </div>
+                    `).join("")}
+                </div>
+            </div>
+            ` : ''}
+
             <div style="margin-top: 2rem; display: flex; gap: 1rem;">
                 <a href="${escapeHTML(item.link_oficial)}" target="_blank" class="btn btn-primary" style="text-decoration: none; flex: 1;">
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>

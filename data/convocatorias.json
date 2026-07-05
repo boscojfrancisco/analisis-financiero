@@ -14,7 +14,21 @@
       "Haber recibido asistencia técnica de la Unidad de Enlace del CFI o de la provincia.",
       "Presentar plan de reducción de emisiones o eficiencia energética."
     ],
-    "link_oficial": "https://cfi.org.ar/financiamiento"
+    "link_oficial": "https://cfi.org.ar/financiamiento",
+    "fuentes_adicionales": [
+      {
+        "nombre": "Portal de Financiamiento del CFI",
+        "url": "https://cfi.org.ar/financiamiento"
+      },
+      {
+        "nombre": "Unidades de Enlace Provincial (UEP)",
+        "url": "https://cfi.org.ar/uep"
+      },
+      {
+        "nombre": "Líneas de Cuidado Ambiental y Eficiencia Energética",
+        "url": "https://cfi.org.ar/asistencia_financiera"
+      }
+    ]
   },
   {
     "id": "bid-invest-garantias",
@@ -30,7 +44,21 @@
       "Ser una PyME calificada por el banco local intermediario.",
       "Proyecto de inversión orientado a la mejora productiva, digitalización o inserción en cadena de valor."
     ],
-    "link_oficial": "https://www.idbinvest.org"
+    "link_oficial": "https://www.idbinvest.org/es/proyectos",
+    "fuentes_adicionales": [
+      {
+        "nombre": "BID Invest - Proyectos Activos y Financiamiento",
+        "url": "https://www.idbinvest.org/es/proyectos"
+      },
+      {
+        "nombre": "Estrategia de País BID Argentina 2025-2028",
+        "url": "https://www.iadb.org/es/paises/argentina"
+      },
+      {
+        "nombre": "Acceso a Financiamiento para Pymes - BID Invest",
+        "url": "https://www.idbinvest.org/es/sectores/instituciones-financieras"
+      }
+    ]
   },
   {
     "id": "ue-horizon-europe",
@@ -46,7 +74,21 @@
       "Participar en consorcio internacional (mínimo 3 entidades de países diferentes, incluyendo europeos).",
       "Proyectos con alto impacto científico-tecnológico y escalabilidad."
     ],
-    "link_oficial": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home"
+    "link_oficial": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home",
+    "fuentes_adicionales": [
+      {
+        "nombre": "Comisión Europea - Funding & Tenders Portal",
+        "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home"
+      },
+      {
+        "nombre": "Horizonte Europa en Argentina (Oficina de Enlace)",
+        "url": "https://www.argentina.gob.ar/ciencia/cooperacion-internacional/union-europea"
+      },
+      {
+        "nombre": "Guía de Participación para Terceros Países (Horizon Europe)",
+        "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/information-for-non-eu-countries_en.pdf"
+      }
+    ]
   },
   {
     "id": "kit-40-digitalizacion",
@@ -62,7 +104,21 @@
       "Estar registrado como PyME en el registro oficial nacional.",
       "Contratar un proveedor tecnológico habilitado dentro de la red oficial de Economía del Conocimiento."
     ],
-    "link_oficial": "https://www.argentina.gob.ar/ciencia/agencia"
+    "link_oficial": "https://www.argentina.gob.ar/ciencia/agencia",
+    "fuentes_adicionales": [
+      {
+        "nombre": "Agencia de I+D+i - Convocatorias Abiertas FONTAR",
+        "url": "https://www.argentina.gob.ar/ciencia/agencia/fondo-tecnologico-argentino-fontar"
+      },
+      {
+        "nombre": "Portal de Trámites a Distancia (TAD) - ANR",
+        "url": "https://www.argentina.gob.ar/servicio/solicitar-aportes-no-reembolsables-anr"
+      },
+      {
+        "nombre": "Secretaría de la Pequeña y Mediana Empresa y los Emprendedores",
+        "url": "https://www.argentina.gob.ar/economia/pymesyemprendedores"
+      }
+    ]
   },
   {
     "id": "ue-huella-carbono-al-invest",
@@ -78,7 +134,21 @@
       "Presentar propuesta en consorcio liderado por cámaras empresariales o instituciones promotoras.",
       "Estar enfocado en la descarbonización de cadenas de valor regionales."
     ],
-    "link_oficial": "https://www.alinvest-verde.eu/"
+    "link_oficial": "https://www.alinvest-verde.eu/",
+    "fuentes_adicionales": [
+      {
+        "nombre": "AL-INVEST Verde - Sitio Oficial",
+        "url": "https://www.alinvest-verde.eu/"
+      },
+      {
+        "nombre": "Convocatorias y Licitaciones de AL-INVEST Verde",
+        "url": "https://alinvest-verde.eu/es/convocatorias-de-proyectos/"
+      },
+      {
+        "nombre": "Delegación de la Unión Europea en Argentina",
+        "url": "https://www.eeas.europa.eu/delegations/argentina_es"
+      }
+    ]
   },
   {
     "id": "caf-ciudades-inteligentes",
@@ -94,7 +164,21 @@
       "Ser ente gubernamental con factibilidad técnica de CAF.",
       "Contar con garantía de endeudamiento provincial/nacional según corresponda."
     ],
-    "link_oficial": "https://www.caf.com/"
+    "link_oficial": "https://www.caf.com/es/actualidad/convocatorias/",
+    "fuentes_adicionales": [
+      {
+        "nombre": "Portal de Convocatorias y Licitaciones CAF",
+        "url": "https://www.caf.com/es/actualidad/convocatorias/"
+      },
+      {
+        "nombre": "CAF Argentina - Proyectos y Operaciones",
+        "url": "https://www.caf.com/es/paises/argentina/"
+      },
+      {
+        "nombre": "Agenda Digital y de Innovación Pública CAF",
+        "url": "https://www.caf.com/es/temas/d/digitalizacion/"
+      }
+    ]
   },
   {
     "id": "corrientes-emprende-tech",
@@ -110,6 +194,20 @@
       "Persona física o jurídica con domicilio fiscal en Corrientes.",
       "Emprendimiento en marcha con componente tecnológico o de innovación productiva."
     ],
-    "link_oficial": "http://www.corrientes.gob.ar"
+    "link_oficial": "https://www.corrientes.gob.ar/",
+    "fuentes_adicionales": [
+      {
+        "nombre": "Portal Oficial de la Provincia de Corrientes",
+        "url": "https://www.corrientes.gob.ar/"
+      },
+      {
+        "nombre": "Ministerio de Industria, Trabajo y Comercio de Corrientes",
+        "url": "https://itc.corrientes.gob.ar/"
+      },
+      {
+        "nombre": "Programa de Financiamiento para Equipos Solares (Provincial)",
+        "url": "https://www.corrientes.gob.ar/1828/la-provincia-impulsa-linea-de-financiamiento-para-la-compra-e-instalacion-de-equipos-solares"
+      }
+    ]
   }
 ]
