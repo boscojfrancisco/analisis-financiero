@@ -126,7 +126,7 @@
       "Contratar un proveedor tecnológico habilitado dentro de la red oficial de Economía del Conocimiento."
     ],
     "como_aplicar": "1. Estar registrado como PyME activa en el portal de PyMEs de la Nación de Argentina.\n2. Ingresar a Trámites a Distancia (TAD), seleccionar el trámite de ANR FONTAR / KIT 4.0.\n3. Vincular el presupuesto formal del proveedor tecnológico homologado de tu elección y enviar el formulario de postulación digital.",
-    "link_oficial": "https://www.argentina.gob.ar/servicio/solicitar-aportes-no-reembolsables-anr",
+    "link_oficial": "https://www.argentina.gob.ar/ciencia/agencia",
     "fuentes": [
       {
         "tipo": "Directa",
@@ -163,7 +163,7 @@
       "Estar enfocado en la descarbonización de cadenas de valor regionales."
     ],
     "como_aplicar": "1. Estar asociado a una cámara o asociación empresarial promotora elegible (como cámaras de comercio de Corrientes).\n2. Presentar la propuesta de proyecto de asistencia ambiental conjunta ante la ventanilla abierta en el sitio web de AL-INVEST Verde.\n3. Enviar los formularios de postulación del consorcio a través del portal de Tenders del programa.",
-    "link_oficial": "https://alinvest-verde.eu/es/convocatorias-de-proyectos/tercera-convocatoria/",
+    "link_oficial": "https://alinvest-verde.eu/es/acerca-de/",
     "fuentes": [
       {
         "tipo": "Directa",
@@ -243,13 +243,13 @@
       "Emprendimiento en marcha con componente tecnológico o de innovación productiva."
     ],
     "como_aplicar": "1. Completar la solicitud web en el portal oficial del Ministerio de Industria, Trabajo y Comercio de la Provincia de Corrientes cuando se abra el llamado.\n2. Presentar el plan de negocios técnico preliminar y participar en las jornadas obligatorias de mentoría y formulación.\n3. Enviar el plan de negocios definitivo para la evaluación del comité y posterior adjudicación de la tasa subsidiada.",
-    "link_oficial": "https://itc.corrientes.gob.ar/",
+    "link_oficial": "https://www.corrientes.gob.ar/tramites",
     "fuentes": [
       {
         "tipo": "Directa",
-        "categoria": "Órgano Ejecutor",
-        "nombre": "Ministerio de Industria, Trabajo y Comercio de Corrientes",
-        "url": "https://itc.corrientes.gob.ar/"
+        "categoria": "Portal del Ministerio",
+        "nombre": "Gobierno de Corrientes - Trámites y Programas de Apoyo",
+        "url": "https://www.corrientes.gob.ar/tramites"
       },
       {
         "tipo": "Directa",
@@ -330,7 +330,7 @@
         "tipo": "Directa",
         "categoria": "Líneas PyME",
         "nombre": "BICE - Oferta Integral de Financiamiento Corporativo",
-        "url": "https://www.bice.com.ar/pymes/"
+        "url": "https://www.bice.com.ar/pymes/leasing/"
       },
       {
         "tipo": "General",
