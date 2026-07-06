@@ -13,40 +13,110 @@
     "id": "noticia-2",
     "titulo": "Corrientes financia la pavimentación de la RP 126 con fondos provinciales",
     "fecha": "2026-05-20",
-    "organismo_fuente": "Dirección de Vialidad Provincial",
+    "organismo_fuente": "Gobierno de la Provincia de Corrientes",
     "sector": "Infraestructura Vial",
-    "resumen": "Ante la quita de fondos nacionales, la Provincia asumió el financiamiento de la pavimentación de la Ruta Provincial 126, en el tramo clave entre Sauce y Curuzú Cuatiá, mejorando la conectividad del sur correntino.",
-    "impacto_corrientes": "Reduce significativamente los costos de flete y transporte logístico para los productores de ganado, arroz y madera de la cuenca sur.",
-    "link_oficial": "https://www.corrientes.gob.ar/"
+    "resumen": "Ante la interrupción del financiamiento nacional, el Gobierno de Corrientes asumió con recursos propios la continuidad de las obras de pavimentación de la Ruta Provincial N° 126 que conecta Sauce con Curuzú Cuatiá, con un avance del 20%.",
+    "impacto_corrientes": "Conecta el sur correntino para servicios de salud, actividades comerciales y traslado de producción ganadera y forestal. La Dirección Provincial de Vialidad lidera los trabajos de asfaltado y banquinas.",
+    "link_oficial": "https://www.corrientes.gob.ar/13562/obra-historica-comenzaron-los-trabajos-de-pavimentacion-en-la-ruta-126"
   },
   {
     "id": "noticia-3",
-    "titulo": "BICE impulsa línea de Leasing para camiones y cosechadoras forestales",
-    "fecha": "2026-04-10",
-    "organismo_fuente": "BICE (Banco de Inversión y Comercio Exterior)",
-    "sector": "Sector Primario",
-    "resumen": "El BICE lanzó herramientas de leasing con amortización acelerada para adquirir maquinaria vial, tractores y camiones pesados para la carga forestal y agrícola, financiando hasta el 100% del bien.",
-    "impacto_corrientes": "Facilita la modernización tecnológica de PyMEs madereras correntinas que necesiten camiones de alta capacidad para ingresar a las plantas industriales de Virasoro e Ituzaingó.",
-    "link_oficial": "https://www.bice.com.ar/pymes/leasing/"
+    "titulo": "CFI y CONFIAR presentan Hoja de Ruta para el sector Forestoindustrial Federal",
+    "fecha": "2026-06-28",
+    "organismo_fuente": "Consejo Federal de Inversiones (CFI)",
+    "sector": "Forestoindustria",
+    "resumen": "El CFI junto a la Confederación de Industrias de la Madera (CONFIAR) avanzaron en una Hoja de Ruta Federal para fortalecer la forestoindustria, promoviendo la construcción con madera, el uso de biomasa, la certificación ambiental y el acceso a financiamiento de PyMEs madereras.",
+    "impacto_corrientes": "Corrientes es la principal provincia forestal del país. Esta hoja de ruta abre puertas a líneas crediticias del CFI para tecnificar aserraderos, certificar carbono y mejorar la logística maderera local.",
+    "link_oficial": "https://argentinaforestal.com/"
   },
   {
     "id": "noticia-4",
-    "titulo": "El CFI y CONFIAR presentan la 'Hoja de Ruta' de Competitividad Forestal",
-    "fecha": "2026-03-05",
-    "organismo_fuente": "Consejo Federal de Inversiones",
-    "sector": "Forestoindustria",
-    "resumen": "Se aprobó el plan estratégico para la digitalización y sustentabilidad de los aserraderos correntinos. El programa incluye asistencia técnica para certificar huella de carbono y acceder a mercados internacionales.",
-    "impacto_corrientes": "Subsidios de consultoría del CFI para aserraderos de Corrientes que busquen exportar madera certificada.",
-    "link_oficial": "https://cfi.org.ar/"
+    "titulo": "BanCo Corrientes lanza créditos de emergencia con tasa subsidiada para riego solar",
+    "fecha": "2026-04-10",
+    "organismo_fuente": "Banco de Corrientes S.A.",
+    "sector": "Sector Primario",
+    "resumen": "El Banco de Corrientes dispuso líneas de crédito a tasa subsidiada para productores agropecuarios afectados por sequías, destinadas a la instalación de sistemas de riego tecnológico con paneles solares.",
+    "impacto_corrientes": "Beneficia directamente a productores arroceros, ganaderos y citrícolas de la provincia que necesitan tecnificar el riego y reducir costos energéticos con energía renovable.",
+    "link_oficial": "https://www.bancodecorrientes.com.ar/"
   },
   {
     "id": "noticia-5",
-    "titulo": "Línea de Crédito del BanCo para Emergencia Agropecuaria y Riego Tecnificado",
-    "fecha": "2026-02-18",
-    "organismo_fuente": "Banco de Corrientes S.A.",
-    "sector": "Sector Primario",
-    "resumen": "Convenio entre el Gobierno de Corrientes y el Banco provincial para otorgar préstamos con tasa bonificada destinados a la compra de bombas de agua solares, pozos profundos y tecnología de riego por goteo.",
-    "impacto_corrientes": "Esencial para productores de arroz y horticultura que deseen tecnificar su producción frente a contingencias climáticas.",
-    "link_oficial": "https://www.bancodecorrientes.com.ar/"
+    "titulo": "BID anuncia paquete récord de US$ 7.200 millones para Argentina en 2026",
+    "fecha": "2026-06-20",
+    "organismo_fuente": "Banco Interamericano de Desarrollo (BID)",
+    "sector": "Modernización del Estado",
+    "resumen": "El Grupo BID aprobó un respaldo financiero sin precedentes de US$ 7.200 millones para Argentina, priorizando transformación digital en salud (US$ 700M via CCLIP), infraestructura productiva, economía digital y fortalecimiento de PyMEs a través de BID Invest (US$ 2.200M).",
+    "impacto_corrientes": "El esquema CCLIP de transformación digital en salud permite a Corrientes postularse como próxima provincia beneficiaria tras Mendoza. BID Invest abre garantías crediticias accesibles para PyMEs correntinas a través del Banco de Corrientes.",
+    "link_oficial": "https://www.iadb.org/es/noticias/grupo-bid-aprueba-nueva-estrategia-con-argentina-2025-2028"
+  },
+  {
+    "id": "noticia-6",
+    "titulo": "Banco Mundial aprueba Marco de Alianza 2026-2033 con foco en agronegocios y economía digital",
+    "fecha": "2026-06-25",
+    "organismo_fuente": "Banco Mundial (BIRF)",
+    "sector": "Ciencia de Datos",
+    "resumen": "El Banco Mundial definió su nuevo Country Partnership Framework (CPF) 2026-2033 para Argentina con tres pilares: crecimiento vía sector privado, agronegocios y energía como motores, y economía digital y del conocimiento para la creación de empleo. Incluye una garantía de US$ 2.000 millones.",
+    "impacto_corrientes": "Corrientes puede apalancarse del pilar de agronegocios (arroz, ganadería, forestoindustria) y del pilar digital para digitalizar servicios públicos provinciales y capacitar talento local en ciencia de datos.",
+    "link_oficial": "https://www.bancomundial.org/es/country/argentina/overview"
+  },
+  {
+    "id": "noticia-7",
+    "titulo": "FONPLATA financia US$ 120 millones para ruta productiva en el Chaco (modelo replicable)",
+    "fecha": "2026-06-18",
+    "organismo_fuente": "FONPLATA - Banco de Desarrollo",
+    "sector": "Infraestructura Vial",
+    "resumen": "FONPLATA aprobó US$ 120 millones para pavimentar 95 km de la Ruta Provincial N° 13 del Chaco, consolidando un corredor logístico clave del NEA. También otorgó US$ 30 millones para infraestructura prioritaria en la misma provincia.",
+    "impacto_corrientes": "Establece un modelo de financiamiento multilateral directo a provincias del NEA que Corrientes puede replicar para sus propios corredores viales productivos (rutas madereras y ganaderas), contactando a FONPLATA con el aval nacional.",
+    "link_oficial": "https://www.fonplata.org/es/proyectos"
+  },
+  {
+    "id": "noticia-8",
+    "titulo": "CAF financia US$ 72 millones para infraestructura eléctrica en Misiones",
+    "fecha": "2026-05-15",
+    "organismo_fuente": "Banco de Desarrollo de América Latina (CAF)",
+    "sector": "Modernización del Estado",
+    "resumen": "La CAF aprobó US$ 72 millones para la construcción de la Línea de Alta Tensión 132 kV en Misiones. Las provincias del NEA están siendo priorizadas por los multilaterales ante la reducción de la inversión pública nacional.",
+    "impacto_corrientes": "Demuestra que la CAF está activa en el NEA y con apetito de financiar proyectos provinciales de infraestructura. Corrientes puede presentar proyectos de conectividad eléctrica rural, digitalización urbana o infraestructura hídrica ante la CAF con la misma mecánica que usó Misiones.",
+    "link_oficial": "https://www.caf.com/es/paises/argentina/"
+  },
+  {
+    "id": "noticia-9",
+    "titulo": "CFI lanza nueva Línea de Crédito 'Triple Impacto' para PyMEs (hasta $500M ARS)",
+    "fecha": "2026-07-01",
+    "organismo_fuente": "Consejo Federal de Inversiones (CFI)",
+    "sector": "Huella de Carbono",
+    "resumen": "El CFI lanzó una nueva línea de financiamiento 'Triple Impacto' para proyectos que integren dimensiones económicas, sociales y ambientales. Financia hasta el 80% de la inversión, con montos de $4M a $500M ARS y tasa fija del 16,8% TNA los primeros 2 años. Incluye costos de certificación ambiental.",
+    "impacto_corrientes": "Las PyMEs forestoindustriales y agropecuarias de Corrientes pueden usar esta línea para financiar certificación de huella de carbono, adopción de energías renovables y mejora de procesos productivos sostenibles. Se tramita vía la Unidad de Enlace Provincial del CFI.",
+    "link_oficial": "https://cfi.org.ar/asistencia_financiera"
+  },
+  {
+    "id": "noticia-10",
+    "titulo": "Corrientes firma convenios por $4.400 millones para obras de infraestructura local",
+    "fecha": "2026-04-22",
+    "organismo_fuente": "Gobierno de la Provincia de Corrientes",
+    "sector": "Infraestructura Vial",
+    "resumen": "El gobierno provincial suscribió convenios por $4.400 millones para obras en múltiples localidades: polideportivos, pavimentación urbana y redes de agua en Saladas, Virasoro, Monte Caseros, Paso de los Libres y Bella Vista, utilizando fondos propios del Tesoro Provincial.",
+    "impacto_corrientes": "Demuestra la capacidad provincial de financiar infraestructura con recursos propios y abre la puerta a complementar con créditos multilaterales (CAF, FONPLATA, BID) para escalar las obras a nivel regional.",
+    "link_oficial": "https://www.corrientes.gob.ar/"
+  },
+  {
+    "id": "noticia-11",
+    "titulo": "EU-LAC Digital Accelerator: convocatoria para startups de IA y sostenibilidad",
+    "fecha": "2026-06-10",
+    "organismo_fuente": "Unión Europea / EU-LAC",
+    "sector": "Inteligencia Artificial",
+    "resumen": "El programa EU-LAC Digital Accelerator de la Unión Europea lanzó una nueva convocatoria para conectar startups latinoamericanas con corporaciones europeas en áreas de IA, automatización, sostenibilidad y economía circular. Ofrece mentoría, financiamiento semilla y acceso al mercado europeo.",
+    "impacto_corrientes": "Startups de base tecnológica de Corrientes enfocadas en IA aplicada a la agroindustria, optimización logística forestal o monitoreo ambiental con ciencia de datos pueden postularse y acceder a capital europeo y redes de innovación.",
+    "link_oficial": "https://www.eulacdigitalaccelerator.com/"
+  },
+  {
+    "id": "noticia-12",
+    "titulo": "AL-INVEST Verde: últimas oportunidades antes del cierre del programa en diciembre 2026",
+    "fecha": "2026-07-03",
+    "organismo_fuente": "Unión Europea / AL-INVEST Verde",
+    "sector": "Huella de Carbono",
+    "resumen": "El programa AL-INVEST Verde de la UE, con 5 años de ejecución apoyando la descarbonización de PyMEs latinoamericanas, cerrará en diciembre 2026. Las cámaras empresariales aún pueden sumarse a actividades de cierre, transferencia de conocimiento y eventos de networking verde.",
+    "impacto_corrientes": "Última ventana para que cámaras de comercio y asociaciones empresariales de Corrientes participen en los eventos de cierre, adopten las herramientas de medición de huella de carbono desarrolladas por el programa y establezcan contactos con socios europeos.",
+    "link_oficial": "https://alinvest-verde.eu/"
   }
 ]
