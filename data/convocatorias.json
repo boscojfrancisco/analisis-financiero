@@ -63,8 +63,8 @@
       {
         "tipo": "Directa",
         "categoria": "Prensa Oficial",
-        "nombre": "Noticia Oficial - Estrategia del Grupo BID en Argentina 2025-2028",
-        "url": "https://www.iadb.org/es/noticias/grupo-bid-aprueba-nueva-estrategia-con-argentina-2025-2028"
+        "nombre": "BID - Estrategia País Argentina 2025-2028",
+        "url": "https://www.iadb.org/es/paises/argentina"
       },
       {
         "tipo": "General",
@@ -100,8 +100,8 @@
       {
         "tipo": "Directa",
         "categoria": "Cooperación Bilateral",
-        "nombre": "Horizonte Europa en Argentina - Oficina de Enlace del MINCyT",
-        "url": "https://www.argentina.gob.ar/ciencia/cooperacion-internacional/union-europea"
+        "nombre": "MINCyT - Cooperación Internacional y Programas UE",
+        "url": "https://www.mincyt.gob.ar/"
       },
       {
         "nombre": "Comisión Europea - Funding & Tenders Portal Inicio",
@@ -131,14 +131,14 @@
       {
         "tipo": "Directa",
         "categoria": "Formulario de Trámite",
-        "nombre": "Trámites a Distancia (TAD) - Solicitud de ANR FONTAR",
-        "url": "https://www.argentina.gob.ar/servicio/solicitar-aportes-no-reembolsables-anr"
+        "nombre": "Agencia I+D+i - Convocatorias y Ventanillas Vigentes",
+        "url": "https://www.argentina.gob.ar/ciencia/agencia"
       },
       {
         "tipo": "Directa",
         "categoria": "Bases del Programa",
-        "nombre": "Agencia I+D+i - Línea FONTAR para PyMEs",
-        "url": "https://www.argentina.gob.ar/ciencia/agencia/fondo-tecnologico-argentino-fontar"
+        "nombre": "Agencia I+D+i - Portal Institucional",
+        "url": "https://www.argentina.gob.ar/ciencia/agencia"
       },
       {
         "tipo": "General",
@@ -168,14 +168,14 @@
       {
         "tipo": "Directa",
         "categoria": "Llamado Vigente",
-        "nombre": "AL-INVEST Verde - Bases de la Tercera Convocatoria Abierta",
-        "url": "https://alinvest-verde.eu/es/convocatorias-de-proyectos/tercera-convocatoria/"
+        "nombre": "AL-INVEST Verde - Acerca del Programa y Objetivos",
+        "url": "https://alinvest-verde.eu/es/acerca-de/"
       },
       {
         "tipo": "Directa",
         "categoria": "Líneas de Proyectos",
-        "nombre": "AL-INVEST Verde - Convocatorias de Proyectos y Guías",
-        "url": "https://alinvest-verde.eu/es/convocatorias-de-proyectos/"
+        "nombre": "AL-INVEST Verde - Acerca del Programa",
+        "url": "https://alinvest-verde.eu/es/acerca-de/"
       },
       {
         "tipo": "General",
@@ -243,19 +243,19 @@
       "Emprendimiento en marcha con componente tecnológico o de innovación productiva."
     ],
     "como_aplicar": "1. Completar la solicitud web en el portal oficial del Ministerio de Industria, Trabajo y Comercio de la Provincia de Corrientes cuando se abra el llamado.\n2. Presentar el plan de negocios técnico preliminar y participar en las jornadas obligatorias de mentoría y formulación.\n3. Enviar el plan de negocios definitivo para la evaluación del comité y posterior adjudicación de la tasa subsidiada.",
-    "link_oficial": "http://www.ife.gov.ar/",
+    "link_oficial": "https://itc.corrientes.gob.ar/",
     "fuentes": [
       {
         "tipo": "Directa",
         "categoria": "Órgano Ejecutor",
-        "nombre": "IFE - Instituto de Fomento Empresarial de Corrientes",
-        "url": "http://www.ife.gov.ar/"
+        "nombre": "Ministerio de Industria, Trabajo y Comercio de Corrientes",
+        "url": "https://itc.corrientes.gob.ar/"
       },
       {
         "tipo": "Directa",
         "categoria": "Portal del Ministerio",
-        "nombre": "Ministerio de Industria, Trabajo y Comercio de Corrientes",
-        "url": "https://itc.corrientes.gob.ar/"
+        "nombre": "Gobierno de Corrientes - Portal de Trámites y Servicios",
+        "url": "https://www.corrientes.gob.ar/tramites"
       },
       {
         "tipo": "General",
@@ -366,8 +366,8 @@
       {
         "tipo": "Directa",
         "categoria": "Obras Públicas",
-        "nombre": "Ministerio de Obras y Servicios Públicos de Corrientes",
-        "url": "https://mosp.corrientes.gob.ar/"
+        "nombre": "Gobierno de Corrientes - Obras de Infraestructura",
+        "url": "https://www.corrientes.gob.ar/home/obras"
       },
       {
         "tipo": "General",
